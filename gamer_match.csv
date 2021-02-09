@@ -1,0 +1,1001 @@
+id,gamer_name,skill_level,region,language,personality_type,minimum_wait_time,preferred_game,preferred_game_mode
+1,dcesco0,basic,Northwest US,Spanish,achiever,20,Overwatch,Deathmatch
+2,jprince1,mid-core,South America,Spanish,thinker,20,Warzone,Battle Royale
+3,astranieri2,hardcore,Western Asia,English,aggressive,15,Warzone,Plunder
+4,egero3,basic,Midwest US,Hindi,socializer,15,Mario Kart 8,VS Race
+5,bseth4,mid-core,Southwest US,Hindi,casual,30,World Of Warcraft,Dungeons
+6,bragsdall5,competition level,Midwest US,English,thinker,20,World Of Warcraft,Dungeons
+7,ltilby6,hardcore,Australia,English,socializer,30,Mario Kart 8,VS Race
+8,mbird7,casual,Europe,English,aggressive,5,Mario Kart 8,Time Trials
+9,hyeude8,mid-core,Northwest US,English,casual,15,Overwatch,Assault
+10,dganning9,hardcore,Western Asia,English,socializer,15,Warzone,Battle Royale
+11,egiovanettia,casual,Central Asia,Hindi,thinker,20,Warzone,Plunder
+12,ccrumbieb,casual,Southwest US,English,thinker,15,Overwatch,Deathmatch
+13,dbuntinec,mid-core,Northwest US,Spanish,explorer,20,Mario Kart 8,Mario Kart TV
+14,myakobd,casual,Northeast US,Spanish,socializer,20,Overwatch,Escort
+15,btoomere,casual,Africa,English,explorer,30,Warzone,Battle Royale
+16,qmylesf,casual,Australia,Hindi,aggressive,30,Mario Kart 8,Time Trials
+17,wwillcotg,basic,Northeast US,Mandarin,achiever,30,Warzone,Battle Royale
+18,dklawih,casual,Midwest US,Hindi,casual,20,World Of Warcraft,Dungeons
+19,kklussi,casual,Africa,Hindi,thinker,20,World Of Warcraft,Dungeons
+20,kstaffj,hardcore,Southwest US,Hindi,achiever,20,Warzone,Plunder
+21,jvaunek,mid-core,Northeast US,English,aggressive,15,World Of Warcraft,Questing
+22,kclemensenl,competition level,Northwest US,Hindi,explorer,5,World Of Warcraft,Questing
+23,mpercym,basic,South Asia,Hindi,thinker,30,Mario Kart 8,Mario Kart TV
+24,aruppelinn,mid-core,Central Asia,Hindi,thinker,10,Mario Kart 8,Time Trials
+25,fcrowthero,competition level,Central Asia,Hindi,socializer,30,World Of Warcraft,Player vs Player
+26,ahintzerp,mid-core,Western Asia,Russian,achiever,20,World Of Warcraft,Dungeons
+27,jbruckerq,basic,Western Asia,English,socializer,30,World Of Warcraft,Questing
+28,emerillr,competition level,Central Asia,Hindi,achiever,30,World Of Warcraft,Dungeons
+29,gjanneys,competition level,East Asia,English,aggressive,30,Mario Kart 8,Mario Kart TV
+30,rsteent,hardcore,South Asia,Hindi,aggressive,10,Fortnite,Creative
+31,salloisiu,mid-core,Midwest US,English,aggressive,5,Overwatch,Escort
+32,mbootev,hardcore,Western Asia,English,socializer,10,Fortnite,Battle Royale
+33,cgoodludw,basic,Central Asia,Hindi,socializer,30,Warzone,Battle Royale
+34,ygowthorpex,mid-core,Central Asia,Hindi,socializer,15,Mario Kart 8,Grand Prix
+35,kmurchy,mid-core,Africa,Hindi,socializer,15,World Of Warcraft,Player vs Player
+36,mmikalskiz,hardcore,Europe,Japanese,socializer,15,Overwatch,Capture the Flag
+37,aspitell10,basic,East Asia,Japanese,achiever,30,Mario Kart 8,VS Race
+38,palday11,casual,Western Asia,Russian,thinker,5,World Of Warcraft,Questing
+39,halgate12,competition level,Southeast Asia,Hindi,casual,30,Warzone,Battle Royale
+40,arumens13,casual,Australia,Japanese,explorer,10,World Of Warcraft,Questing
+41,lkarleman14,mid-core,Southeast Asia,Hindi,socializer,10,World Of Warcraft,Questing
+42,ckeynd15,mid-core,South America,Spanish,socializer,30,Warzone,Plunder
+43,sofeeney16,mid-core,Europe,Italian,thinker,5,Overwatch,Elimination
+44,ccryer17,competition level,Africa,English,thinker,20,Overwatch,Assault
+45,yuccello18,competition level,Southeast Asia,Hindi,achiever,10,Overwatch,Assault
+46,sbenito19,casual,Central Asia,English,aggressive,10,Warzone,Plunder
+47,bcamolli1a,hardcore,Southeast Asia,French,thinker,30,World Of Warcraft,Dungeons
+48,fgreenard1b,competition level,South US,English,explorer,10,Overwatch,Assault
+49,imackimmie1c,mid-core,Central Asia,Mandarin,aggressive,30,Mario Kart 8,Mario Kart TV
+50,athom1d,casual,Australia,Japanese,thinker,5,World Of Warcraft,Questing
+51,aocalleran1e,hardcore,Southeast Asia,English,achiever,20,Mario Kart 8,Grand Prix
+52,gkubec1f,competition level,Southeast Asia,French,explorer,30,Warzone,Plunder
+53,cforsaith1g,competition level,Central Asia,Russian,aggressive,20,Fortnite,Creative
+54,cdymidowicz1h,basic,Western Asia,Russian,casual,5,World Of Warcraft,Player vs Player
+55,kvallens1i,hardcore,Africa,Hindi,achiever,30,World Of Warcraft,Questing
+56,ihovee1j,basic,Midwest US,English,aggressive,5,Warzone,Plunder
+57,jsword1k,hardcore,South US,English,casual,20,Mario Kart 8,Time Trials
+58,pbrizland1l,basic,Southeast Asia,English,socializer,20,World Of Warcraft,Questing
+59,dcleall1m,mid-core,Midwest US,Hindi,achiever,20,Warzone,Battle Royale
+60,jjaouen1n,basic,Africa,English,aggressive,30,World Of Warcraft,Player vs Player
+61,glokier1o,casual,Southwest US,Spanish,achiever,5,Mario Kart 8,Mario Kart TV
+62,uhaskett1p,competition level,Africa,English,socializer,20,Overwatch,Control
+63,mchannon1q,hardcore,East Asia,Mandarin,socializer,15,World Of Warcraft,Questing
+64,csandiford1r,mid-core,Australia,Hindi,explorer,10,World Of Warcraft,Player vs Player
+65,sedensor1s,mid-core,South Asia,Hindi,aggressive,5,Mario Kart 8,Mario Kart TV
+66,bmcdonough1t,competition level,South America,English,explorer,10,World Of Warcraft,Questing
+67,adossetter1u,mid-core,Australia,Hindi,thinker,5,World Of Warcraft,Dungeons
+68,lanneslie1v,hardcore,Southwest US,English,thinker,10,World Of Warcraft,Dungeons
+69,mvonnassau1w,hardcore,Northeast US,English,explorer,10,Overwatch,Capture the Flag
+70,arossant1x,casual,South Asia,Hindi,casual,15,Overwatch,Control
+71,cbresland1y,competition level,South US,English,aggressive,20,Warzone,Plunder
+72,sgillhespy1z,mid-core,Europe,Italian,socializer,10,Overwatch,Deathmatch
+73,jdearman20,hardcore,Northeast US,Hindi,thinker,5,Overwatch,Deathmatch
+74,sbockings21,competition level,Southeast Asia,French,casual,15,Fortnite,Battle Royale
+75,mmanson22,competition level,Central Asia,Hindi,achiever,20,Overwatch,Escort
+76,dgrassin23,basic,Southwest US,Spanish,achiever,10,World Of Warcraft,Player vs Player
+77,sketteringham24,competition level,East Asia,Mandarin,achiever,20,Overwatch,Hybrid
+78,mpook25,mid-core,Western Asia,Russian,aggressive,30,World Of Warcraft,Questing
+79,ehuddle26,mid-core,Southwest US,English,achiever,30,Fortnite,Party Royale
+80,thazelhurst27,hardcore,Western Asia,Hindi,socializer,15,World Of Warcraft,Dungeons
+81,ljammet28,hardcore,Northeast US,German,achiever,30,Fortnite,Party Royale
+82,jchristian29,hardcore,Northwest US,English,aggressive,10,Mario Kart 8,VS Race
+83,mfridaye2a,casual,Midwest US,English,casual,10,Mario Kart 8,Time Trials
+84,psymmons2b,mid-core,Central Asia,Hindi,socializer,20,Mario Kart 8,Time Trials
+85,krossey2c,hardcore,Northeast US,Hindi,achiever,20,Fortnite,Battle Royale
+86,knewick2d,casual,Southwest US,English,achiever,20,Warzone,Plunder
+87,akleinstub2e,hardcore,Africa,English,casual,15,Warzone,Battle Royale
+88,nrugiero2f,competition level,Western Asia,Russian,aggressive,30,Mario Kart 8,VS Race
+89,saarons2g,casual,South Asia,Hindi,achiever,5,Overwatch,Control
+90,bskirlin2h,mid-core,Western Asia,English,casual,15,Warzone,Battle Royale
+91,nlonghorn2i,casual,Northeast US,Spanish,achiever,15,Overwatch,Deathmatch
+92,cmerchant2j,basic,Central Asia,Russian,thinker,10,World Of Warcraft,Dungeons
+93,asurgeoner2k,mid-core,Western Asia,Hindi,achiever,10,Mario Kart 8,Battle
+94,sandrews2l,casual,Europe,Italian,explorer,10,Fortnite,Creative
+95,mbrattell2m,mid-core,Western Asia,Hindi,socializer,15,Mario Kart 8,VS Race
+96,mwellstead2n,hardcore,Europe,Mandarin,achiever,5,Warzone,Battle Royale
+97,tdoonican2o,hardcore,Southwest US,English,aggressive,30,Overwatch,Capture the Flag
+98,kangus2p,basic,East Asia,Mandarin,thinker,5,Fortnite,Creative
+99,blavigne2q,competition level,Australia,Hindi,thinker,10,Warzone,Battle Royale
+100,jertelt2r,casual,Western Asia,Russian,achiever,5,Mario Kart 8,Battle
+101,ewhittlesee2s,casual,Central Asia,English,aggressive,15,Fortnite,Save the World
+102,ocestard2t,basic,Australia,Hindi,thinker,20,Mario Kart 8,Battle
+103,hyemm2u,competition level,East Asia,Hindi,socializer,15,Overwatch,Assault
+104,rfoucard2v,competition level,Northwest US,English,casual,15,Mario Kart 8,Online
+105,amckoy2w,casual,Northeast US,Japanese,explorer,15,Warzone,Battle Royale
+106,dkarpenko2x,mid-core,Australia,English,socializer,20,World Of Warcraft,Questing
+107,nsullens2y,mid-core,Midwest US,Hindi,thinker,30,Overwatch,Elimination
+108,ashellard2z,casual,Europe,French,aggressive,15,Overwatch,Elimination
+109,ashirland30,hardcore,Northwest US,English,aggressive,15,Fortnite,Party Royale
+110,kscrewton31,hardcore,Africa,English,thinker,15,Fortnite,Party Royale
+111,aregler32,mid-core,Midwest US,Hindi,socializer,20,World Of Warcraft,Player vs Player
+112,bpettersen33,casual,Southeast Asia,Hindi,achiever,15,Overwatch,Elimination
+113,xlatchford34,basic,Western Asia,Russian,thinker,20,Mario Kart 8,Online
+114,esaenz35,basic,Midwest US,Hindi,thinker,30,Warzone,Battle Royale
+115,tindruch36,basic,East Asia,French,aggressive,10,Mario Kart 8,Mario Kart TV
+116,lschapero37,mid-core,Africa,Hindi,aggressive,10,Fortnite,Save the World
+117,sshakle38,basic,Europe,Spanish,thinker,15,Fortnite,Battle Royale
+118,cmacmearty39,mid-core,Australia,Japanese,thinker,30,Fortnite,Creative
+119,hfarquhar3a,basic,South Asia,English,achiever,30,World Of Warcraft,Dungeons
+120,alehr3b,mid-core,Central Asia,Hindi,achiever,5,World Of Warcraft,Player vs Player
+121,kbergin3c,mid-core,Australia,Japanese,thinker,10,Fortnite,Party Royale
+122,sdaintree3d,basic,South US,Spanish,socializer,15,Warzone,Battle Royale
+123,mhassen3e,basic,South Asia,English,casual,15,Fortnite,Creative
+124,rsanja3f,competition level,Western Asia,Russian,aggressive,20,Mario Kart 8,Mario Kart TV
+125,ameadus3g,competition level,South US,English,explorer,30,Warzone,Battle Royale
+126,cgillbee3h,competition level,Central Asia,Russian,aggressive,5,Overwatch,Assault
+127,cszanto3i,mid-core,East Asia,Japanese,achiever,10,Fortnite,Creative
+128,fkinworthy3j,casual,Midwest US,English,socializer,15,World Of Warcraft,Dungeons
+129,erisdale3k,casual,Africa,English,aggressive,15,Warzone,Plunder
+130,vdunkerly3l,hardcore,Africa,Hindi,aggressive,5,Warzone,Plunder
+131,jgoulder3m,mid-core,Northeast US,French,thinker,30,Mario Kart 8,Battle
+132,tcorps3n,basic,Central Asia,Russian,explorer,5,Warzone,Plunder
+133,mannear3o,hardcore,East Asia,Japanese,explorer,5,Fortnite,Creative
+134,npettisall3p,mid-core,Southeast Asia,French,achiever,20,Overwatch,Control
+135,atidcombe3q,hardcore,Northeast US,Japanese,explorer,5,Warzone,Battle Royale
+136,apidgley3r,mid-core,Australia,Japanese,thinker,15,Overwatch,Escort
+137,lmellon3s,basic,Northwest US,English,socializer,5,Mario Kart 8,VS Race
+138,dlewtey3t,mid-core,Africa,English,socializer,15,Overwatch,Assault
+139,mcreamer3u,mid-core,Western Asia,English,explorer,10,Mario Kart 8,Online
+140,jcoulsen3v,mid-core,Southeast Asia,French,thinker,20,Overwatch,Control
+141,ltrueman3w,competition level,Northwest US,Hindi,casual,15,Warzone,Battle Royale
+142,ymcaloren3x,casual,East Asia,Hindi,explorer,5,Mario Kart 8,Time Trials
+143,oginty3y,mid-core,Central Asia,Russian,thinker,15,World Of Warcraft,Dungeons
+144,hsidney3z,basic,Western Asia,English,casual,20,Overwatch,Deathmatch
+145,lscoble40,casual,Europe,Hindi,socializer,15,Warzone,Battle Royale
+146,ebille41,basic,Northeast US,French,thinker,20,Mario Kart 8,Online
+147,rmidson42,basic,Southeast Asia,French,achiever,15,Warzone,Plunder
+148,hmawdsley43,competition level,South US,Italian,casual,20,Mario Kart 8,Battle
+149,zgurner44,casual,Australia,English,achiever,5,Overwatch,Elimination
+150,rcraisford45,hardcore,East Asia,Japanese,casual,5,World Of Warcraft,Player vs Player
+151,dmccard46,casual,Northeast US,Spanish,explorer,20,World Of Warcraft,Player vs Player
+152,dmarling47,hardcore,East Asia,Hindi,aggressive,20,Mario Kart 8,Online
+153,galdiss48,basic,South US,Hindi,socializer,10,Fortnite,Creative
+154,asambrook49,hardcore,Southeast Asia,Hindi,socializer,30,Mario Kart 8,Online
+155,pplaistowe4a,mid-core,Africa,English,aggressive,10,Mario Kart 8,VS Race
+156,jaspital4b,basic,Northwest US,Hindi,aggressive,30,Warzone,Plunder
+157,fklejna4c,mid-core,Western Asia,Russian,thinker,20,Overwatch,Elimination
+158,xdorkin4d,casual,South America,English,explorer,20,Overwatch,Capture the Flag
+159,rclemetts4e,competition level,Australia,Japanese,casual,10,World Of Warcraft,Player vs Player
+160,rcrowley4f,casual,East Asia,Hindi,thinker,30,Overwatch,Control
+161,dmather4g,hardcore,South US,Spanish,explorer,5,World Of Warcraft,Questing
+162,ngriniov4h,competition level,South Asia,Hindi,explorer,20,Mario Kart 8,Online
+163,wchiplen4i,competition level,Central Asia,Mandarin,thinker,15,Warzone,Plunder
+164,kkerwen4j,casual,Europe,German,achiever,5,Mario Kart 8,Grand Prix
+165,aalelsandrovich4k,mid-core,South America,Spanish,thinker,10,Warzone,Battle Royale
+166,wcadge4l,basic,Central Asia,Mandarin,casual,20,Mario Kart 8,Grand Prix
+167,jbestar4m,mid-core,Northeast US,Mandarin,socializer,30,Overwatch,Elimination
+168,tnickell4n,hardcore,East Asia,Japanese,thinker,20,Overwatch,Deathmatch
+169,screddon4o,mid-core,Midwest US,Spanish,socializer,20,Overwatch,Assault
+170,ahabberjam4p,casual,Africa,Hindi,socializer,10,World Of Warcraft,Questing
+171,nselbie4q,competition level,Northeast US,Japanese,socializer,30,Overwatch,Escort
+172,qmorritt4r,mid-core,South Asia,Hindi,thinker,10,Fortnite,Save the World
+173,rmcfaul4s,mid-core,Northeast US,Spanish,achiever,30,Warzone,Plunder
+174,cmacken4t,casual,Africa,Hindi,thinker,30,Mario Kart 8,Battle
+175,jtoffolini4u,mid-core,Southwest US,English,aggressive,30,World Of Warcraft,Dungeons
+176,dconyers4v,mid-core,Central Asia,Russian,thinker,20,Overwatch,Assault
+177,tjoire4w,basic,Central Asia,Russian,thinker,30,Mario Kart 8,VS Race
+178,ehaydn4x,casual,Africa,English,casual,10,Fortnite,Creative
+179,rjameson4y,mid-core,Midwest US,English,socializer,10,Overwatch,Assault
+180,fwiggall4z,mid-core,Europe,Spanish,aggressive,10,Overwatch,Hybrid
+181,dbouttell50,hardcore,Midwest US,English,casual,30,Warzone,Battle Royale
+182,bliggens51,basic,Europe,German,thinker,30,Mario Kart 8,Battle
+183,sfarman52,mid-core,Europe,Russian,socializer,10,World Of Warcraft,Dungeons
+184,lsurridge53,casual,South America,English,explorer,10,World Of Warcraft,Player vs Player
+185,wantoinet54,competition level,Australia,Japanese,socializer,20,Overwatch,Elimination
+186,amclugaish55,hardcore,South America,Spanish,aggressive,30,Mario Kart 8,VS Race
+187,dblanc56,mid-core,South Asia,Hindi,socializer,10,Warzone,Battle Royale
+188,bclemenzo57,casual,South US,English,socializer,10,Fortnite,Battle Royale
+189,mdillistone58,competition level,Central Asia,Hindi,socializer,30,Mario Kart 8,Grand Prix
+190,abearfoot59,hardcore,South US,Mandarin,aggressive,5,World Of Warcraft,Player vs Player
+191,wlazenby5a,mid-core,Central Asia,Hindi,thinker,15,Mario Kart 8,Mario Kart TV
+192,noconcannon5b,basic,Northeast US,English,thinker,30,Mario Kart 8,Online
+193,dsteanyng5c,basic,Africa,English,socializer,15,World Of Warcraft,Questing
+194,ctill5d,competition level,South US,Mandarin,explorer,10,Warzone,Plunder
+195,rfyndon5e,competition level,East Asia,English,casual,15,Mario Kart 8,Online
+196,dbonhome5f,competition level,Northeast US,English,achiever,20,Overwatch,Assault
+197,rsawdy5g,hardcore,Australia,Hindi,socializer,30,Overwatch,Escort
+198,janslow5h,casual,South Asia,English,socializer,20,Overwatch,Capture the Flag
+199,pfoxley5i,basic,South America,Hindi,thinker,20,Warzone,Plunder
+200,sraff5j,casual,Northwest US,Spanish,achiever,20,Overwatch,Hybrid
+201,bbalam5k,basic,Northeast US,French,aggressive,30,Fortnite,Party Royale
+202,alethcoe5l,casual,Western Asia,English,casual,20,Fortnite,Creative
+203,gyair5m,casual,Europe,Hindi,thinker,10,Mario Kart 8,Time Trials
+204,hseamarke5n,hardcore,Midwest US,English,thinker,5,Overwatch,Escort
+205,cforrest5o,hardcore,Northeast US,Japanese,thinker,30,Mario Kart 8,Time Trials
+206,rfatkin5p,basic,East Asia,French,casual,5,Mario Kart 8,VS Race
+207,rjopling5q,mid-core,South Asia,Hindi,aggressive,30,Mario Kart 8,Online
+208,awilacot5r,hardcore,Australia,Hindi,explorer,15,World Of Warcraft,Player vs Player
+209,skerins5s,hardcore,Midwest US,English,casual,5,World Of Warcraft,Player vs Player
+210,kupfold5t,mid-core,South US,Hindi,achiever,5,Fortnite,Party Royale
+211,flambourne5u,mid-core,Europe,German,achiever,20,World Of Warcraft,Dungeons
+212,tvanderwalt5v,competition level,Midwest US,Hindi,thinker,10,Fortnite,Creative
+213,psweet5w,basic,South US,Italian,achiever,20,World Of Warcraft,Player vs Player
+214,ababbidge5x,basic,Northeast US,English,thinker,30,Mario Kart 8,Online
+215,cjeffries5y,mid-core,Australia,Hindi,achiever,20,Mario Kart 8,Grand Prix
+216,ihens5z,basic,South US,English,explorer,5,World Of Warcraft,Dungeons
+217,pconstantine60,basic,Africa,Hindi,achiever,20,Fortnite,Creative
+218,hrimington61,mid-core,East Asia,French,casual,15,World Of Warcraft,Questing
+219,darne62,hardcore,Africa,Hindi,socializer,30,Fortnite,Battle Royale
+220,lkeller63,competition level,South Asia,Hindi,socializer,30,Fortnite,Save the World
+221,owelling64,casual,Western Asia,Russian,achiever,15,Mario Kart 8,Grand Prix
+222,lmactavish65,hardcore,Europe,French,aggressive,15,Warzone,Plunder
+223,jrainsden66,hardcore,Australia,Japanese,explorer,15,Fortnite,Creative
+224,rstolle67,hardcore,South US,Spanish,aggressive,30,Overwatch,Hybrid
+225,bbetjes68,basic,Midwest US,Spanish,thinker,30,Fortnite,Battle Royale
+226,ajinkinson69,mid-core,South US,English,achiever,30,Overwatch,Deathmatch
+227,kmacparland6a,basic,Africa,English,achiever,30,Mario Kart 8,Time Trials
+228,lpandya6b,basic,East Asia,English,socializer,20,Warzone,Battle Royale
+229,dbrient6c,casual,East Asia,Japanese,thinker,20,Fortnite,Creative
+230,abohlin6d,basic,South US,Italian,socializer,20,Overwatch,Elimination
+231,mmcparland6e,casual,Australia,Japanese,achiever,10,Overwatch,Hybrid
+232,mhirth6f,mid-core,Europe,Japanese,explorer,5,Overwatch,Capture the Flag
+233,dronaldson6g,mid-core,Northeast US,French,casual,30,Warzone,Plunder
+234,tbeilby6h,mid-core,Central Asia,English,achiever,30,Warzone,Plunder
+235,njeffreys6i,competition level,Europe,English,aggressive,10,Warzone,Plunder
+236,mleyband6j,casual,Europe,English,socializer,5,Fortnite,Creative
+237,clude6k,mid-core,Southeast Asia,English,thinker,20,Fortnite,Creative
+238,scocklie6l,casual,South Asia,English,casual,10,Overwatch,Deathmatch
+239,cpozzo6m,casual,Europe,Mandarin,thinker,5,Overwatch,Elimination
+240,gcrinage6n,casual,Europe,Spanish,achiever,5,Warzone,Plunder
+241,mscouse6o,hardcore,South America,Spanish,casual,15,World Of Warcraft,Player vs Player
+242,pjoslyn6p,competition level,Africa,Hindi,casual,20,Overwatch,Elimination
+243,cickovitz6q,competition level,Northwest US,Japanese,explorer,10,World Of Warcraft,Player vs Player
+244,amoreton6r,casual,South US,Spanish,achiever,10,World Of Warcraft,Player vs Player
+245,llodeke6s,competition level,Central Asia,English,casual,20,Warzone,Battle Royale
+246,mcrowdson6t,competition level,Central Asia,Mandarin,thinker,15,Fortnite,Creative
+247,ljaqueminet6u,hardcore,South US,Italian,explorer,20,Fortnite,Creative
+248,atatteshall6v,mid-core,South America,Spanish,aggressive,30,Overwatch,Escort
+249,sruffle6w,mid-core,South America,English,socializer,20,Mario Kart 8,Battle
+250,gfried6x,hardcore,South US,Mandarin,aggressive,20,World Of Warcraft,Player vs Player
+251,acrosseland6y,competition level,Europe,English,socializer,10,Warzone,Battle Royale
+252,smallaby6z,competition level,Australia,Hindi,achiever,5,World Of Warcraft,Dungeons
+253,pmeany70,casual,South US,Spanish,thinker,15,Warzone,Plunder
+254,rkaemena71,hardcore,Western Asia,Hindi,casual,20,Warzone,Battle Royale
+255,showood72,competition level,South America,Spanish,aggressive,10,Overwatch,Control
+256,nloudwell73,mid-core,South Asia,English,aggressive,20,World Of Warcraft,Player vs Player
+257,smarsters74,hardcore,South US,Italian,casual,5,Overwatch,Capture the Flag
+258,fsybbe75,mid-core,Australia,Japanese,thinker,10,Fortnite,Battle Royale
+259,kchuter76,hardcore,South US,English,thinker,15,Fortnite,Party Royale
+260,scoom77,competition level,Northeast US,Hindi,achiever,30,Mario Kart 8,VS Race
+261,blune78,competition level,Northwest US,English,aggressive,30,Mario Kart 8,Time Trials
+262,mmulvaney79,competition level,South Asia,Hindi,explorer,10,Mario Kart 8,Online
+263,skelf7a,basic,Africa,Hindi,casual,30,Fortnite,Creative
+264,cramey7b,casual,Northwest US,Spanish,achiever,15,World Of Warcraft,Player vs Player
+265,rmuckart7c,hardcore,Africa,English,aggressive,30,Fortnite,Party Royale
+266,mmundow7d,hardcore,Southwest US,Spanish,socializer,30,Mario Kart 8,Grand Prix
+267,ebowick7e,hardcore,Australia,English,casual,5,World Of Warcraft,Dungeons
+268,shallatt7f,mid-core,Australia,Hindi,casual,15,World Of Warcraft,Dungeons
+269,hcurless7g,mid-core,Central Asia,Mandarin,achiever,30,World Of Warcraft,Dungeons
+270,knewlands7h,basic,Southwest US,English,socializer,20,Fortnite,Save the World
+271,rdrew7i,competition level,Europe,Russian,explorer,15,Mario Kart 8,Time Trials
+272,frome7j,mid-core,South America,Spanish,explorer,15,Warzone,Battle Royale
+273,nantonazzi7k,hardcore,Southwest US,Hindi,explorer,30,Overwatch,Assault
+274,adagworthy7l,basic,Western Asia,English,aggressive,30,World Of Warcraft,Dungeons
+275,abedle7m,competition level,South Asia,English,socializer,30,Overwatch,Elimination
+276,jguerry7n,mid-core,Australia,English,casual,20,Mario Kart 8,Online
+277,bwhall7o,mid-core,Europe,English,socializer,5,Overwatch,Control
+278,mmartynka7p,mid-core,Southeast Asia,English,socializer,15,Mario Kart 8,Online
+279,jgilders7q,hardcore,Europe,German,aggressive,5,Mario Kart 8,Battle
+280,mboch7r,casual,Europe,Spanish,thinker,15,Overwatch,Hybrid
+281,bmussared7s,competition level,South US,English,thinker,15,Warzone,Plunder
+282,pbrownfield7t,hardcore,Northwest US,Japanese,socializer,5,World Of Warcraft,Player vs Player
+283,ghanscome7u,mid-core,Southwest US,English,thinker,10,Mario Kart 8,Online
+284,dbarnshaw7v,hardcore,South US,English,socializer,5,Mario Kart 8,Time Trials
+285,egarroch7w,hardcore,South America,Hindi,thinker,30,Mario Kart 8,Time Trials
+286,ferricker7x,basic,South US,English,casual,10,Fortnite,Save the World
+287,jeykelbosch7y,hardcore,Australia,Hindi,casual,10,Fortnite,Creative
+288,vhebson7z,mid-core,South Asia,Hindi,casual,20,Overwatch,Elimination
+289,smackro80,hardcore,Southwest US,English,socializer,20,World Of Warcraft,Questing
+290,sibanez81,hardcore,Europe,Russian,explorer,15,Warzone,Plunder
+291,gramble82,hardcore,South Asia,English,aggressive,15,Mario Kart 8,Battle
+292,dromeril83,basic,Africa,English,socializer,20,Overwatch,Elimination
+293,rszach84,casual,Southwest US,Spanish,casual,30,Fortnite,Creative
+294,sdevita85,competition level,Australia,Hindi,socializer,10,Mario Kart 8,VS Race
+295,ytarrier86,basic,Southwest US,Hindi,socializer,20,Warzone,Plunder
+296,crothert87,hardcore,South US,English,explorer,30,Warzone,Plunder
+297,tavent88,hardcore,South America,English,thinker,30,Warzone,Plunder
+298,hnerheny89,basic,Western Asia,Russian,achiever,15,Mario Kart 8,Mario Kart TV
+299,knorfolk8a,basic,East Asia,English,socializer,10,Overwatch,Elimination
+300,fseatter8b,hardcore,South Asia,Hindi,aggressive,5,Mario Kart 8,Online
+301,rshillitoe8c,hardcore,Australia,Hindi,achiever,5,Fortnite,Party Royale
+302,riacobetto8d,hardcore,Australia,English,socializer,10,World Of Warcraft,Questing
+303,vswallow8e,competition level,South America,Hindi,explorer,20,Overwatch,Capture the Flag
+304,kpritchard8f,mid-core,South America,English,explorer,10,World Of Warcraft,Dungeons
+305,asafont8g,hardcore,East Asia,English,explorer,30,Mario Kart 8,Online
+306,fvaldes8h,mid-core,Australia,Japanese,thinker,20,World Of Warcraft,Player vs Player
+307,aklaffs8i,competition level,South Asia,Hindi,thinker,20,Fortnite,Battle Royale
+308,jmurra8j,competition level,South US,Hindi,socializer,15,Warzone,Plunder
+309,ogabe8k,competition level,Northwest US,Spanish,casual,20,World Of Warcraft,Questing
+310,ltatershall8l,competition level,South US,Italian,thinker,20,Overwatch,Elimination
+311,jprout8m,casual,Northwest US,English,thinker,15,Warzone,Battle Royale
+312,jsetterington8n,mid-core,East Asia,Japanese,achiever,5,Mario Kart 8,Time Trials
+313,cpergens8o,hardcore,Africa,Hindi,thinker,5,Warzone,Battle Royale
+314,cmckew8p,casual,South America,Hindi,thinker,30,Fortnite,Party Royale
+315,bjozsika8q,hardcore,Europe,Mandarin,socializer,5,Overwatch,Deathmatch
+316,lhaughan8r,competition level,Northwest US,Spanish,aggressive,10,Fortnite,Party Royale
+317,adecayette8s,competition level,Australia,English,aggressive,20,Overwatch,Hybrid
+318,bgrishanov8t,competition level,Southeast Asia,French,thinker,20,Overwatch,Hybrid
+319,wcanacott8u,competition level,Western Asia,Hindi,explorer,10,Warzone,Plunder
+320,smerman8v,hardcore,South Asia,Hindi,casual,5,Mario Kart 8,Grand Prix
+321,gmcgifford8w,mid-core,Europe,Mandarin,aggressive,10,Warzone,Battle Royale
+322,dbleazard8x,basic,Southeast Asia,English,achiever,15,Warzone,Battle Royale
+323,jkellaway8y,hardcore,South America,Hindi,aggressive,20,Fortnite,Party Royale
+324,vseathwright8z,hardcore,Southwest US,English,aggressive,20,World Of Warcraft,Dungeons
+325,rparmeter90,casual,Northeast US,French,thinker,15,Mario Kart 8,Time Trials
+326,erolance91,mid-core,South America,Spanish,casual,10,Fortnite,Party Royale
+327,dkardos92,mid-core,Africa,English,aggressive,15,Overwatch,Assault
+328,oleathley93,casual,Northeast US,Japanese,explorer,20,Mario Kart 8,Time Trials
+329,wrainey94,mid-core,Northeast US,Japanese,achiever,15,World Of Warcraft,Dungeons
+330,smcgiven95,competition level,South America,Hindi,aggressive,5,Warzone,Battle Royale
+331,trumgay96,casual,Southeast Asia,Hindi,explorer,10,Overwatch,Capture the Flag
+332,evasquez97,hardcore,Africa,Hindi,explorer,10,Fortnite,Save the World
+333,gheddan98,mid-core,South America,Spanish,socializer,20,Overwatch,Deathmatch
+334,jgrundell99,casual,Western Asia,English,aggressive,10,Fortnite,Creative
+335,gskala9a,casual,Australia,Japanese,thinker,30,Warzone,Plunder
+336,sforsdicke9b,basic,South US,Spanish,achiever,10,Fortnite,Party Royale
+337,mmaillard9c,mid-core,Northwest US,English,aggressive,20,Warzone,Plunder
+338,gshoebridge9d,competition level,South US,English,socializer,15,Mario Kart 8,Grand Prix
+339,hizakovitz9e,casual,Western Asia,Russian,thinker,20,Overwatch,Control
+340,glast9f,hardcore,South Asia,English,socializer,10,Overwatch,Hybrid
+341,garghent9g,hardcore,Europe,Italian,achiever,5,Overwatch,Control
+342,bmcandrew9h,competition level,East Asia,English,aggressive,5,Fortnite,Party Royale
+343,ccodeman9i,mid-core,Europe,Mandarin,aggressive,5,Fortnite,Save the World
+344,cripper9j,mid-core,South America,Spanish,socializer,30,World Of Warcraft,Questing
+345,ibuxcey9k,competition level,Central Asia,English,thinker,15,Warzone,Plunder
+346,escarff9l,casual,Central Asia,English,casual,5,Mario Kart 8,Battle
+347,radamiak9m,hardcore,Europe,Italian,casual,30,World Of Warcraft,Player vs Player
+348,rrubel9n,hardcore,South Asia,Hindi,thinker,15,World Of Warcraft,Questing
+349,iliebermann9o,hardcore,South US,Mandarin,achiever,10,Warzone,Battle Royale
+350,cpriden9p,basic,Northeast US,English,socializer,5,Mario Kart 8,Grand Prix
+351,cash9q,casual,Europe,Italian,explorer,30,Mario Kart 8,Mario Kart TV
+352,rblaber9r,basic,Australia,Hindi,casual,30,Fortnite,Creative
+353,jwrought9s,mid-core,Europe,Italian,aggressive,10,Fortnite,Creative
+354,itutchener9t,hardcore,South Asia,Hindi,explorer,20,Warzone,Plunder
+355,lpettiford9u,hardcore,South America,Spanish,achiever,30,Fortnite,Save the World
+356,ygarment9v,casual,Northeast US,Japanese,socializer,10,Warzone,Battle Royale
+357,lgoodbody9w,hardcore,Southwest US,Spanish,achiever,20,Overwatch,Elimination
+358,rwagstaffe9x,casual,Africa,Hindi,aggressive,15,Fortnite,Battle Royale
+359,mcollabine9y,competition level,Australia,English,aggressive,10,World Of Warcraft,Questing
+360,kgarbutt9z,competition level,Northeast US,Russian,casual,30,Warzone,Battle Royale
+361,ddemchena0,casual,Northeast US,Italian,achiever,5,Warzone,Plunder
+362,bfeatenbya1,basic,South US,Hindi,explorer,30,Overwatch,Escort
+363,nmethingama2,mid-core,Central Asia,Mandarin,achiever,10,Overwatch,Control
+364,achastanda3,casual,Midwest US,Hindi,socializer,5,World Of Warcraft,Dungeons
+365,jducea4,hardcore,South Asia,Hindi,achiever,20,World Of Warcraft,Questing
+366,dshipleya5,basic,Europe,Italian,socializer,30,Warzone,Plunder
+367,kblackmuira6,competition level,Southeast Asia,Hindi,thinker,15,World Of Warcraft,Player vs Player
+368,nwesthofera7,mid-core,Africa,English,socializer,30,Warzone,Battle Royale
+369,wmaccreea8,basic,Southeast Asia,Hindi,socializer,20,Overwatch,Hybrid
+370,ckristiansena9,casual,Southwest US,Spanish,thinker,10,World Of Warcraft,Questing
+371,tquinbyaa,competition level,Europe,Japanese,explorer,20,World Of Warcraft,Dungeons
+372,slimpkinab,competition level,Southwest US,English,aggressive,15,Warzone,Battle Royale
+373,bgarretsonac,basic,Northeast US,Spanish,aggressive,10,Overwatch,Capture the Flag
+374,cmcclellandad,casual,Africa,Hindi,thinker,5,Fortnite,Save the World
+375,bellerayae,casual,Central Asia,Russian,socializer,15,Warzone,Plunder
+376,kgranleeseaf,mid-core,Australia,English,casual,30,Fortnite,Battle Royale
+377,hdarragonag,hardcore,South Asia,English,achiever,30,World Of Warcraft,Player vs Player
+378,lbarnshawah,basic,Europe,English,socializer,30,Fortnite,Battle Royale
+379,dphillpai,hardcore,Southeast Asia,English,socializer,30,Overwatch,Capture the Flag
+380,ltewaj,competition level,Midwest US,English,achiever,10,Overwatch,Assault
+381,eelnoughak,basic,Europe,German,socializer,5,Overwatch,Capture the Flag
+382,moleninal,mid-core,South America,Spanish,explorer,15,Overwatch,Hybrid
+383,tadamecam,casual,Midwest US,Spanish,explorer,30,Warzone,Battle Royale
+384,twakenshawan,basic,Central Asia,Russian,explorer,20,Fortnite,Creative
+385,cantcliffao,casual,Northwest US,English,aggressive,5,Warzone,Battle Royale
+386,vorpenap,competition level,Australia,English,aggressive,15,Mario Kart 8,Grand Prix
+387,tewartaq,casual,Midwest US,Hindi,explorer,5,Overwatch,Capture the Flag
+388,mwilflingar,hardcore,Southwest US,English,achiever,30,Fortnite,Creative
+389,lmckeneyas,casual,Southwest US,Spanish,socializer,30,Warzone,Battle Royale
+390,mfarressat,mid-core,Southeast Asia,French,casual,30,Overwatch,Escort
+391,abernardesau,casual,Southwest US,Hindi,aggressive,30,Warzone,Plunder
+392,bhedmanav,hardcore,South America,Spanish,explorer,10,Overwatch,Control
+393,nbromfieldaw,hardcore,Western Asia,English,socializer,30,World Of Warcraft,Questing
+394,esellarax,casual,Western Asia,English,socializer,5,Fortnite,Party Royale
+395,navrashinay,hardcore,South Asia,English,achiever,30,Overwatch,Hybrid
+396,afaleyaz,competition level,South America,Spanish,thinker,30,Warzone,Plunder
+397,dbottonb0,mid-core,Western Asia,English,aggressive,15,World Of Warcraft,Questing
+398,wkingescotb1,basic,East Asia,Mandarin,aggressive,20,Warzone,Battle Royale
+399,cbrickdaleb2,basic,Western Asia,Russian,explorer,20,World Of Warcraft,Questing
+400,cfinkerb3,basic,South US,English,aggressive,30,Mario Kart 8,Battle
+401,faugarb4,casual,South US,English,explorer,15,Overwatch,Deathmatch
+402,lbohmanb5,basic,Europe,Spanish,socializer,5,Warzone,Battle Royale
+403,tfranschinib6,casual,South US,English,achiever,20,Overwatch,Hybrid
+404,imccarrisonb7,casual,Africa,English,socializer,30,Warzone,Plunder
+405,swaslinb8,casual,Southeast Asia,French,explorer,15,Overwatch,Control
+406,akitcatb9,hardcore,Midwest US,Spanish,casual,30,Warzone,Plunder
+407,atumeba,casual,Southeast Asia,Hindi,aggressive,10,Fortnite,Creative
+408,tpealingbb,hardcore,Europe,Italian,aggressive,10,Overwatch,Deathmatch
+409,fbaggerbc,competition level,Midwest US,English,aggressive,15,Fortnite,Save the World
+410,hhamblybd,mid-core,South America,Hindi,socializer,5,Overwatch,Deathmatch
+411,feaclebe,casual,Northeast US,Italian,casual,5,Overwatch,Escort
+412,jberggrenbf,casual,Southeast Asia,English,socializer,20,World Of Warcraft,Player vs Player
+413,zellulbg,casual,South US,English,socializer,10,Fortnite,Battle Royale
+414,rbelfbh,hardcore,South America,Hindi,casual,20,Overwatch,Elimination
+415,mvynallbi,competition level,East Asia,French,casual,10,Overwatch,Control
+416,rsoppbj,mid-core,East Asia,Japanese,achiever,5,World Of Warcraft,Player vs Player
+417,vgiuronibk,mid-core,South US,Mandarin,socializer,10,Warzone,Plunder
+418,mrichemontbl,basic,Western Asia,Russian,thinker,20,Warzone,Plunder
+419,bpersittbm,mid-core,Southwest US,English,casual,30,Overwatch,Control
+420,gyaakovbn,mid-core,Western Asia,Russian,thinker,30,Mario Kart 8,VS Race
+421,igarfordbo,basic,East Asia,Japanese,achiever,15,Mario Kart 8,VS Race
+422,ltaffleybp,hardcore,Africa,English,socializer,15,Overwatch,Escort
+423,gmiguelbq,casual,South America,Spanish,socializer,20,Warzone,Plunder
+424,jhounihanbr,hardcore,Northwest US,Hindi,aggressive,10,Fortnite,Party Royale
+425,lsleightholmebs,mid-core,Northwest US,Spanish,socializer,20,Warzone,Battle Royale
+426,awottonbt,competition level,Northeast US,English,casual,15,World Of Warcraft,Player vs Player
+427,lhaldanebu,mid-core,Africa,Hindi,explorer,10,World Of Warcraft,Dungeons
+428,djedrysbv,basic,Northeast US,Japanese,thinker,20,Fortnite,Party Royale
+429,svanichkovbw,casual,South America,Hindi,explorer,20,Warzone,Battle Royale
+430,dsawbx,hardcore,Southeast Asia,Hindi,casual,15,Fortnite,Creative
+431,dhartnupby,hardcore,Midwest US,English,explorer,10,Mario Kart 8,Grand Prix
+432,smignotbz,mid-core,Midwest US,English,socializer,15,Overwatch,Capture the Flag
+433,hmilbyc0,hardcore,South US,English,explorer,5,Overwatch,Elimination
+434,nhalesc1,competition level,South America,Spanish,socializer,20,Warzone,Battle Royale
+435,gjesselc2,casual,Africa,Hindi,thinker,10,Fortnite,Save the World
+436,tplayerc3,casual,East Asia,French,thinker,15,World Of Warcraft,Player vs Player
+437,tvaterc4,hardcore,South Asia,English,socializer,20,Overwatch,Elimination
+438,kgligoric5,competition level,Midwest US,English,aggressive,10,Fortnite,Battle Royale
+439,gcowlardc6,hardcore,Australia,Japanese,achiever,20,Overwatch,Capture the Flag
+440,whathwayc7,basic,Midwest US,English,explorer,30,World Of Warcraft,Questing
+441,dcermanc8,hardcore,Southeast Asia,French,achiever,10,Warzone,Battle Royale
+442,akingsc9,basic,Australia,Hindi,socializer,5,Overwatch,Deathmatch
+443,cgratlandca,basic,Australia,English,aggressive,15,Warzone,Plunder
+444,jcameranacb,mid-core,Central Asia,Mandarin,aggressive,10,Overwatch,Assault
+445,bberlingcc,hardcore,South US,Spanish,explorer,20,Overwatch,Elimination
+446,tcastrocd,competition level,Europe,French,thinker,15,Fortnite,Battle Royale
+447,ndominoce,casual,Australia,English,aggressive,5,World Of Warcraft,Player vs Player
+448,latyeacf,mid-core,Australia,English,explorer,30,World Of Warcraft,Dungeons
+449,seglincg,hardcore,Midwest US,Hindi,casual,5,Warzone,Plunder
+450,mrothwellch,mid-core,Southwest US,English,aggressive,20,Mario Kart 8,Mario Kart TV
+451,cgoreisrci,casual,East Asia,Japanese,achiever,5,World Of Warcraft,Player vs Player
+452,eparamancj,casual,Midwest US,Hindi,achiever,10,Overwatch,Elimination
+453,kprintck,casual,Northwest US,English,achiever,30,Fortnite,Battle Royale
+454,eblundoncl,competition level,Southwest US,English,socializer,15,Fortnite,Party Royale
+455,sjakucewiczcm,mid-core,Southwest US,English,casual,15,Mario Kart 8,VS Race
+456,atatlowcn,hardcore,South Asia,English,casual,10,Fortnite,Party Royale
+457,fblagbroughco,casual,Southwest US,English,explorer,5,Fortnite,Save the World
+458,dsaverycp,competition level,Midwest US,English,casual,20,Mario Kart 8,VS Race
+459,jshillcq,casual,East Asia,Japanese,socializer,20,Warzone,Plunder
+460,gmeadmorecr,mid-core,Western Asia,English,casual,20,Warzone,Plunder
+461,bcristofarics,competition level,Europe,Japanese,achiever,5,Mario Kart 8,Mario Kart TV
+462,mtidboldct,hardcore,South America,Hindi,thinker,20,Fortnite,Creative
+463,dbruneaucu,mid-core,South America,Hindi,thinker,30,Overwatch,Capture the Flag
+464,cgreenheadcv,hardcore,East Asia,Mandarin,thinker,30,Overwatch,Assault
+465,mworssamcw,basic,Southeast Asia,English,achiever,15,Fortnite,Party Royale
+466,wroebuckcx,competition level,Northeast US,French,casual,5,Warzone,Battle Royale
+467,mmardallcy,competition level,Northwest US,Japanese,achiever,15,Overwatch,Escort
+468,flozanocz,casual,East Asia,Mandarin,casual,30,Fortnite,Save the World
+469,cmulqueend0,casual,Southeast Asia,Hindi,socializer,20,World Of Warcraft,Questing
+470,sbaggd1,competition level,Southwest US,English,casual,10,Overwatch,Escort
+471,hbricklebankd2,basic,Western Asia,Hindi,casual,10,Fortnite,Battle Royale
+472,acolletd3,hardcore,Northwest US,Hindi,casual,20,Mario Kart 8,VS Race
+473,msnooksd4,competition level,Europe,Mandarin,socializer,10,Mario Kart 8,VS Race
+474,jmershd5,competition level,Africa,English,aggressive,15,Warzone,Battle Royale
+475,tmurdied6,hardcore,East Asia,English,casual,5,Fortnite,Creative
+476,rmacmilland7,hardcore,Europe,French,casual,20,Warzone,Plunder
+477,fsidawayd8,casual,South US,Italian,casual,15,Fortnite,Party Royale
+478,mmccarrolld9,basic,East Asia,English,achiever,30,Overwatch,Deathmatch
+479,rcoyeda,competition level,Central Asia,Mandarin,casual,15,Warzone,Plunder
+480,bmcguckendb,hardcore,Central Asia,Russian,explorer,15,Mario Kart 8,Mario Kart TV
+481,mmargaritellidc,hardcore,Western Asia,Russian,casual,30,Warzone,Plunder
+482,cjewittdd,mid-core,Northwest US,Hindi,aggressive,15,World Of Warcraft,Player vs Player
+483,ggongde,casual,Southwest US,Hindi,casual,15,Fortnite,Save the World
+484,dsimmsdf,mid-core,Africa,English,aggressive,5,Warzone,Plunder
+485,jnewhamdg,competition level,South America,English,casual,15,Overwatch,Control
+486,jribeydh,competition level,Southwest US,Spanish,aggressive,5,Fortnite,Creative
+487,fhabeshawdi,mid-core,South US,Italian,casual,20,Fortnite,Party Royale
+488,cgergherdj,hardcore,Western Asia,Russian,socializer,15,Overwatch,Capture the Flag
+489,ghutchingesdk,mid-core,Southeast Asia,Hindi,socializer,15,World Of Warcraft,Dungeons
+490,kfronczakdl,basic,Western Asia,English,aggressive,30,Mario Kart 8,Battle
+491,tfalkinderdm,mid-core,Southeast Asia,Hindi,socializer,5,World Of Warcraft,Dungeons
+492,gpetrasdn,basic,Northwest US,English,socializer,20,Overwatch,Assault
+493,mbeatondo,mid-core,Midwest US,English,socializer,15,Overwatch,Escort
+494,vmactavishdp,hardcore,Midwest US,English,socializer,15,World Of Warcraft,Dungeons
+495,bleleudq,basic,Africa,Hindi,socializer,5,Overwatch,Escort
+496,nashalldr,mid-core,Western Asia,Russian,achiever,15,Mario Kart 8,Grand Prix
+497,wdavenportds,competition level,Western Asia,Russian,socializer,5,World Of Warcraft,Questing
+498,lcrossbydt,competition level,East Asia,Mandarin,explorer,15,Overwatch,Capture the Flag
+499,cnealondu,casual,Europe,Mandarin,achiever,10,Overwatch,Hybrid
+500,khuntondv,competition level,Southwest US,English,achiever,20,Warzone,Plunder
+501,kflecknoedw,basic,Australia,English,explorer,30,Overwatch,Assault
+502,cdrewcliftondx,mid-core,Central Asia,Russian,achiever,15,Overwatch,Hybrid
+503,boehmedy,mid-core,Central Asia,Hindi,explorer,15,World Of Warcraft,Dungeons
+504,eharmantdz,mid-core,Southwest US,English,thinker,10,World Of Warcraft,Player vs Player
+505,jstermane0,hardcore,Western Asia,Hindi,casual,20,Fortnite,Party Royale
+506,vhiggoee1,mid-core,Central Asia,Russian,explorer,30,Overwatch,Deathmatch
+507,htalle2,casual,Midwest US,Hindi,socializer,5,Fortnite,Creative
+508,hvargase3,hardcore,Southwest US,Spanish,explorer,5,Fortnite,Creative
+509,korpene4,hardcore,Australia,Hindi,socializer,30,Mario Kart 8,Online
+510,llingfoote5,hardcore,Central Asia,Russian,casual,15,World Of Warcraft,Dungeons
+511,khaete6,hardcore,Western Asia,Russian,casual,20,Fortnite,Save the World
+512,rmundiee7,casual,Western Asia,English,achiever,10,Mario Kart 8,VS Race
+513,bconnore8,hardcore,Australia,English,aggressive,10,Fortnite,Save the World
+514,kballefante9,competition level,Western Asia,Russian,aggressive,5,Overwatch,Deathmatch
+515,bhatcherea,competition level,Midwest US,English,aggressive,30,Warzone,Battle Royale
+516,pwoolfalleb,hardcore,Australia,Japanese,casual,20,Fortnite,Battle Royale
+517,kjenninsec,casual,Central Asia,Hindi,achiever,15,Warzone,Battle Royale
+518,jwresselled,hardcore,South America,Hindi,achiever,20,Warzone,Battle Royale
+519,mrobertsonee,casual,South America,English,achiever,5,Fortnite,Creative
+520,fmobberleyef,casual,Australia,Hindi,thinker,15,Fortnite,Save the World
+521,fmoaneg,basic,South America,Hindi,casual,30,Mario Kart 8,Mario Kart TV
+522,qrankeneh,hardcore,Europe,Russian,achiever,15,Overwatch,Elimination
+523,rbackmanei,casual,Central Asia,English,achiever,10,Warzone,Battle Royale
+524,lmintonej,hardcore,South Asia,Hindi,thinker,5,World Of Warcraft,Player vs Player
+525,bdimatteoek,hardcore,South Asia,English,casual,5,Warzone,Plunder
+526,nvandecappelleel,mid-core,South Asia,English,aggressive,30,Overwatch,Deathmatch
+527,rglenisterem,basic,Western Asia,English,aggressive,30,Warzone,Plunder
+528,bjuppeen,mid-core,South America,Hindi,explorer,5,Mario Kart 8,Battle
+529,kmaudetteo,competition level,South America,Hindi,explorer,20,Overwatch,Escort
+530,dlydfordep,mid-core,Western Asia,Russian,thinker,30,Warzone,Battle Royale
+531,bnoadeq,competition level,Southeast Asia,French,explorer,10,Overwatch,Deathmatch
+532,spasker,hardcore,Africa,Hindi,thinker,5,Fortnite,Party Royale
+533,bcockerhames,competition level,Southwest US,English,socializer,20,Fortnite,Party Royale
+534,mbertotet,competition level,South US,Hindi,aggressive,30,Mario Kart 8,Battle
+535,gjandeleu,mid-core,East Asia,Mandarin,socializer,10,Fortnite,Save the World
+536,rdeamerev,casual,South US,Italian,aggressive,30,Warzone,Plunder
+537,ghynardew,hardcore,South Asia,English,thinker,15,Fortnite,Party Royale
+538,lantonuttiex,competition level,Western Asia,English,aggressive,20,Fortnite,Battle Royale
+539,jjackeey,hardcore,Central Asia,Mandarin,explorer,15,World Of Warcraft,Player vs Player
+540,krevittez,mid-core,South America,Spanish,explorer,20,World Of Warcraft,Player vs Player
+541,zbrooksbyf0,basic,Southwest US,Spanish,thinker,20,Warzone,Battle Royale
+542,lrevelyf1,casual,Western Asia,English,explorer,15,Warzone,Battle Royale
+543,rhanfreyf2,casual,Southwest US,English,thinker,30,World Of Warcraft,Questing
+544,djohnseef3,casual,Southeast Asia,English,achiever,15,World Of Warcraft,Dungeons
+545,jcottef4,hardcore,Midwest US,English,achiever,30,Warzone,Battle Royale
+546,goxleyf5,mid-core,Northeast US,Japanese,casual,30,World Of Warcraft,Dungeons
+547,kbeiderbeckef6,basic,South Asia,Hindi,achiever,20,Overwatch,Assault
+548,susherwoodf7,hardcore,Southwest US,English,socializer,15,Warzone,Battle Royale
+549,bcanadinef8,basic,Southeast Asia,English,socializer,30,Fortnite,Save the World
+550,ocominottif9,mid-core,South America,Spanish,thinker,5,World Of Warcraft,Player vs Player
+551,lbeckworthfa,competition level,Northwest US,Japanese,aggressive,15,Overwatch,Control
+552,cbedbroughfb,competition level,Northwest US,English,explorer,30,Fortnite,Battle Royale
+553,hmcbrydefc,casual,Europe,Russian,explorer,20,Mario Kart 8,Mario Kart TV
+554,bshoutefd,competition level,Northwest US,Japanese,thinker,15,Mario Kart 8,Time Trials
+555,jbrinsfordfe,hardcore,Central Asia,Mandarin,aggressive,15,World Of Warcraft,Player vs Player
+556,gfeldharkerff,hardcore,South America,Hindi,explorer,30,Mario Kart 8,VS Race
+557,ahurlefg,casual,Midwest US,English,thinker,20,Fortnite,Party Royale
+558,okunradfh,competition level,East Asia,Mandarin,aggressive,20,Mario Kart 8,Grand Prix
+559,lhealdfi,competition level,Northeast US,Russian,aggressive,30,Fortnite,Save the World
+560,plaugheranfj,basic,Western Asia,Russian,explorer,20,World Of Warcraft,Questing
+561,nhindmoorfk,basic,Northeast US,English,thinker,10,Mario Kart 8,VS Race
+562,adockrillfl,mid-core,South America,English,achiever,5,Overwatch,Escort
+563,crugerfm,mid-core,Midwest US,Spanish,explorer,5,Overwatch,Control
+564,adonizeaufn,casual,Southeast Asia,English,socializer,15,Overwatch,Control
+565,tdecrucefo,basic,Northeast US,Russian,aggressive,10,Fortnite,Battle Royale
+566,bbossefp,casual,South Asia,English,thinker,30,Fortnite,Creative
+567,rzaniolofq,mid-core,Africa,English,aggressive,10,Warzone,Plunder
+568,aglasscockfr,hardcore,Northwest US,English,thinker,30,Fortnite,Creative
+569,ahiggoefs,hardcore,Midwest US,English,casual,10,Mario Kart 8,Online
+570,fbullochft,hardcore,Southwest US,English,socializer,15,Warzone,Plunder
+571,ehenstridgefu,basic,Southwest US,English,explorer,30,Warzone,Plunder
+572,csiderfinfv,basic,Northeast US,English,thinker,5,Overwatch,Assault
+573,gcoleridgefw,mid-core,Central Asia,Hindi,thinker,20,Overwatch,Elimination
+574,fleaknerfx,mid-core,South America,Hindi,socializer,5,Mario Kart 8,Mario Kart TV
+575,vfalloonfy,hardcore,South Asia,Hindi,thinker,5,Mario Kart 8,Mario Kart TV
+576,gneillfz,competition level,Northeast US,English,casual,5,Warzone,Plunder
+577,cerleyg0,basic,Central Asia,Mandarin,casual,10,Overwatch,Hybrid
+578,glarrawayg1,competition level,Southeast Asia,Hindi,explorer,20,Fortnite,Save the World
+579,mcongraveg2,mid-core,Central Asia,Russian,explorer,5,Fortnite,Creative
+580,jsidlowg3,basic,Australia,Hindi,thinker,10,World Of Warcraft,Dungeons
+581,atoderig4,hardcore,South America,English,achiever,15,Fortnite,Save the World
+582,ksussansg5,hardcore,Central Asia,Mandarin,aggressive,15,Overwatch,Assault
+583,ccoenraetsg6,basic,Northwest US,English,achiever,10,Mario Kart 8,Grand Prix
+584,fgoeringg7,competition level,Europe,English,explorer,20,Fortnite,Battle Royale
+585,dpropperg8,mid-core,Africa,English,casual,15,Mario Kart 8,VS Race
+586,nkitchenerg9,basic,South US,English,aggressive,15,Fortnite,Battle Royale
+587,awithamga,mid-core,Northwest US,Japanese,explorer,10,Fortnite,Battle Royale
+588,bpollegb,basic,Europe,Spanish,thinker,30,Fortnite,Party Royale
+589,rdanglgc,casual,South America,English,thinker,30,Fortnite,Battle Royale
+590,lteesgd,mid-core,East Asia,Mandarin,thinker,5,Mario Kart 8,Time Trials
+591,sbowdenge,hardcore,Southeast Asia,French,thinker,5,Warzone,Plunder
+592,geglaisegf,basic,South US,Spanish,socializer,30,Warzone,Battle Royale
+593,whaythorngg,mid-core,South America,English,socializer,30,Overwatch,Hybrid
+594,rcapitanogh,basic,South America,Hindi,thinker,20,World Of Warcraft,Player vs Player
+595,gantatgi,mid-core,Northeast US,French,thinker,20,Fortnite,Save the World
+596,wemiliengj,hardcore,Northeast US,Russian,aggressive,15,Fortnite,Battle Royale
+597,lhazeldenegk,basic,Australia,Japanese,thinker,30,World Of Warcraft,Questing
+598,egerramgl,hardcore,South America,Spanish,achiever,10,World Of Warcraft,Dungeons
+599,cbeverleygm,casual,East Asia,English,explorer,5,Fortnite,Save the World
+600,jgianillign,mid-core,Midwest US,English,socializer,5,Warzone,Plunder
+601,lkolczynskigo,basic,East Asia,English,explorer,5,World Of Warcraft,Dungeons
+602,cmyallgp,mid-core,Southwest US,English,thinker,5,Mario Kart 8,Time Trials
+603,lmoseygq,casual,Africa,English,casual,20,Overwatch,Deathmatch
+604,vluckeygr,casual,East Asia,Mandarin,achiever,15,Mario Kart 8,Battle
+605,vpamplings,basic,Northeast US,English,thinker,30,Mario Kart 8,VS Race
+606,tdimitrescogt,competition level,Australia,English,casual,15,World Of Warcraft,Dungeons
+607,gzelakegu,casual,Southwest US,English,thinker,10,Fortnite,Save the World
+608,nmillisgv,mid-core,Northeast US,Spanish,thinker,30,Overwatch,Elimination
+609,rflipekgw,casual,Central Asia,Hindi,socializer,10,World Of Warcraft,Player vs Player
+610,bgosnoldgx,basic,Western Asia,English,casual,20,Warzone,Battle Royale
+611,hellsgy,mid-core,South America,Hindi,aggressive,20,Overwatch,Control
+612,mgreirgz,casual,East Asia,Japanese,aggressive,15,Warzone,Plunder
+613,vgodsmarkh0,basic,Northwest US,English,aggressive,30,Fortnite,Party Royale
+614,bstirleyh1,hardcore,Southwest US,Spanish,aggressive,30,World Of Warcraft,Player vs Player
+615,avanyh2,competition level,South Asia,English,explorer,10,Fortnite,Creative
+616,manthoniesh3,casual,South Asia,Hindi,thinker,20,Fortnite,Party Royale
+617,bethingtonh4,casual,South America,English,explorer,10,Fortnite,Save the World
+618,ngeraldh5,hardcore,Midwest US,Spanish,thinker,15,Fortnite,Save the World
+619,ccallissh6,competition level,Central Asia,Mandarin,aggressive,15,Fortnite,Party Royale
+620,mdunningh7,basic,Africa,Hindi,explorer,5,Mario Kart 8,VS Race
+621,pjantonh8,competition level,Northwest US,Spanish,explorer,30,Fortnite,Creative
+622,tanteckih9,casual,Europe,Italian,casual,30,Fortnite,Creative
+623,tthomsonha,basic,Southeast Asia,Hindi,socializer,5,Fortnite,Creative
+624,bvidyapinhb,mid-core,Midwest US,Hindi,explorer,5,Overwatch,Capture the Flag
+625,qdelbouxhc,hardcore,South Asia,Hindi,aggressive,30,Warzone,Battle Royale
+626,bbaudassohd,mid-core,Western Asia,Hindi,achiever,30,Mario Kart 8,VS Race
+627,tpettingallhe,mid-core,South Asia,Hindi,thinker,5,Overwatch,Hybrid
+628,gbeddishf,hardcore,South US,English,achiever,20,World Of Warcraft,Player vs Player
+629,lgrugerrhg,hardcore,South Asia,Hindi,thinker,5,Fortnite,Battle Royale
+630,zdowdenhh,competition level,Africa,English,achiever,15,Warzone,Plunder
+631,bleathi,competition level,Europe,German,achiever,10,World Of Warcraft,Player vs Player
+632,hitschakovhj,hardcore,South US,English,achiever,10,Overwatch,Control
+633,dmeckiffhk,mid-core,South America,Spanish,achiever,20,Overwatch,Hybrid
+634,ccowitzhl,basic,Western Asia,Russian,achiever,5,Mario Kart 8,Mario Kart TV
+635,lpoulsenhm,basic,Southeast Asia,Hindi,socializer,10,Overwatch,Escort
+636,kscimonellihn,basic,South America,Spanish,aggressive,5,Mario Kart 8,Battle
+637,tlynockho,casual,South America,Hindi,achiever,20,Mario Kart 8,Grand Prix
+638,afullickshp,casual,Central Asia,Hindi,casual,30,Overwatch,Assault
+639,scoyetthq,competition level,East Asia,Mandarin,explorer,10,Overwatch,Elimination
+640,vdunwoodyhr,casual,Midwest US,Spanish,explorer,20,Mario Kart 8,Online
+641,emurbyhs,competition level,Southwest US,Hindi,casual,20,Overwatch,Assault
+642,bforringtonht,competition level,South Asia,Hindi,explorer,30,Overwatch,Deathmatch
+643,estefanovichu,competition level,Northwest US,Japanese,thinker,30,Overwatch,Assault
+644,kokehv,hardcore,Midwest US,English,explorer,5,Warzone,Battle Royale
+645,ygrabenhw,basic,Africa,Hindi,thinker,10,Overwatch,Capture the Flag
+646,pwhatsonhx,hardcore,East Asia,Japanese,aggressive,15,Warzone,Battle Royale
+647,acapelhy,competition level,South America,Hindi,socializer,20,Warzone,Plunder
+648,bgommeyhz,mid-core,Southwest US,English,aggressive,20,Mario Kart 8,VS Race
+649,sbaldettii0,hardcore,Europe,English,socializer,30,World Of Warcraft,Questing
+650,jjermyni1,competition level,South US,English,explorer,20,Fortnite,Battle Royale
+651,fdoctori2,basic,Central Asia,Mandarin,aggressive,15,World Of Warcraft,Dungeons
+652,coluwatoyini3,casual,Western Asia,Russian,casual,15,Fortnite,Save the World
+653,avirri4,mid-core,East Asia,English,thinker,20,World Of Warcraft,Questing
+654,ceasthami5,hardcore,Southwest US,Spanish,explorer,5,World Of Warcraft,Dungeons
+655,wmandevillei6,basic,Africa,English,achiever,10,World Of Warcraft,Player vs Player
+656,ekipplingi7,mid-core,Australia,English,explorer,30,World Of Warcraft,Questing
+657,fwickwarthi8,hardcore,Southwest US,Spanish,aggressive,15,Warzone,Plunder
+658,cbellayi9,hardcore,Midwest US,Spanish,socializer,20,Warzone,Plunder
+659,abaystonia,mid-core,Southeast Asia,Hindi,casual,15,Fortnite,Creative
+660,rregisib,casual,Northeast US,Russian,aggressive,30,Warzone,Battle Royale
+661,jbalcersic,competition level,Northeast US,Japanese,explorer,30,Overwatch,Elimination
+662,emedinaid,competition level,Northeast US,English,casual,15,World Of Warcraft,Player vs Player
+663,pshropsheirie,casual,Southeast Asia,English,casual,30,Fortnite,Party Royale
+664,schampkenif,casual,Central Asia,English,achiever,30,Mario Kart 8,Battle
+665,esingersig,basic,Southwest US,Hindi,thinker,5,Warzone,Plunder
+666,spirnieih,mid-core,South America,Hindi,casual,30,Warzone,Battle Royale
+667,delietii,casual,Southwest US,Spanish,achiever,20,Mario Kart 8,Grand Prix
+668,pdabsij,basic,Western Asia,Russian,socializer,15,World Of Warcraft,Player vs Player
+669,emaddockik,casual,South Asia,Hindi,thinker,30,World Of Warcraft,Dungeons
+670,cdoweyil,hardcore,East Asia,French,achiever,30,Mario Kart 8,Grand Prix
+671,felixim,competition level,Western Asia,Hindi,socializer,10,Fortnite,Party Royale
+672,bsebrightin,mid-core,Midwest US,Spanish,explorer,15,World Of Warcraft,Dungeons
+673,jgoulbournio,casual,Southwest US,English,thinker,20,Warzone,Battle Royale
+674,lmichurinip,mid-core,Central Asia,English,thinker,30,Overwatch,Elimination
+675,fdabernottiq,hardcore,Southwest US,English,socializer,15,World Of Warcraft,Dungeons
+676,nmckinnair,competition level,Southeast Asia,English,explorer,10,World Of Warcraft,Player vs Player
+677,fvinecombeis,mid-core,Southwest US,Spanish,explorer,10,Mario Kart 8,Online
+678,kpechit,hardcore,East Asia,English,casual,15,Warzone,Battle Royale
+679,aslaymakeriu,basic,Africa,Hindi,achiever,5,Mario Kart 8,VS Race
+680,sblockiv,competition level,Australia,Japanese,achiever,30,Overwatch,Hybrid
+681,clehoniw,casual,South Asia,Hindi,achiever,20,Fortnite,Creative
+682,mbagguleyix,competition level,Southeast Asia,French,aggressive,10,Warzone,Battle Royale
+683,cvardeyiy,competition level,Southeast Asia,French,casual,10,World Of Warcraft,Player vs Player
+684,pchinnockiz,competition level,Australia,Hindi,thinker,30,Warzone,Battle Royale
+685,cmckerleyj0,mid-core,Southeast Asia,French,explorer,5,World Of Warcraft,Player vs Player
+686,edenerleyj1,hardcore,East Asia,Mandarin,casual,30,World Of Warcraft,Player vs Player
+687,kfilippyevj2,casual,Southeast Asia,French,explorer,20,World Of Warcraft,Player vs Player
+688,mdanigelj3,casual,Northeast US,Spanish,socializer,5,Warzone,Battle Royale
+689,efortescuej4,competition level,Northeast US,Italian,aggressive,30,World Of Warcraft,Player vs Player
+690,ldukelowj5,competition level,East Asia,Japanese,aggressive,20,Warzone,Plunder
+691,bdavydenkoj6,basic,South America,Spanish,explorer,20,World Of Warcraft,Player vs Player
+692,clycettj7,competition level,Northwest US,English,socializer,20,Fortnite,Save the World
+693,jgorbellj8,basic,South Asia,Hindi,aggressive,30,Fortnite,Party Royale
+694,ppenninoj9,competition level,Western Asia,Hindi,socializer,5,Warzone,Battle Royale
+695,jhowdenja,casual,Southwest US,English,achiever,15,Overwatch,Elimination
+696,mponsfordjb,casual,South Asia,English,socializer,10,World Of Warcraft,Dungeons
+697,badnamsjc,casual,Northwest US,Japanese,achiever,20,Mario Kart 8,Online
+698,rharfleetjd,competition level,South Asia,Hindi,casual,5,Fortnite,Creative
+699,jbeagenje,competition level,Europe,Hindi,explorer,5,Warzone,Plunder
+700,sphilcoxjf,basic,South America,English,socializer,30,World Of Warcraft,Dungeons
+701,sstariesjg,casual,South Asia,Hindi,thinker,5,Warzone,Battle Royale
+702,bclacsonjh,hardcore,Australia,Hindi,aggressive,15,Fortnite,Battle Royale
+703,nbrierleyji,hardcore,Northeast US,French,explorer,10,Overwatch,Deathmatch
+704,pfarryanjj,basic,South Asia,Hindi,thinker,20,World Of Warcraft,Player vs Player
+705,ltenderjk,competition level,South Asia,English,socializer,15,Mario Kart 8,Battle
+706,cpybusjl,mid-core,South US,English,thinker,15,Fortnite,Creative
+707,bphelipeaujm,basic,Southwest US,Spanish,thinker,30,World Of Warcraft,Player vs Player
+708,astaresmearejn,competition level,South Asia,English,casual,20,Warzone,Battle Royale
+709,lpotesjo,basic,Southeast Asia,English,explorer,10,World Of Warcraft,Player vs Player
+710,nloxstonjp,hardcore,Northwest US,Hindi,casual,20,World Of Warcraft,Dungeons
+711,pknevetjq,competition level,South America,Spanish,achiever,10,Overwatch,Hybrid
+712,gathertonjr,competition level,Europe,Russian,explorer,5,Mario Kart 8,Time Trials
+713,mhollebonjs,competition level,Southeast Asia,English,explorer,5,Fortnite,Save the World
+714,lcapeloffjt,hardcore,Western Asia,Hindi,achiever,20,Fortnite,Battle Royale
+715,drollandju,casual,Europe,Italian,socializer,15,Overwatch,Control
+716,tfalcojv,casual,Southeast Asia,Hindi,achiever,20,World Of Warcraft,Dungeons
+717,apullingerjw,casual,South US,English,casual,30,Mario Kart 8,Time Trials
+718,qoverstreetjx,mid-core,Northeast US,Spanish,thinker,15,Overwatch,Deathmatch
+719,jbevingtonjy,casual,Europe,Italian,thinker,30,Overwatch,Escort
+720,dlewcockjz,casual,Western Asia,English,casual,5,Fortnite,Save the World
+721,pfarressk0,casual,Northeast US,Spanish,aggressive,30,Fortnite,Party Royale
+722,dclaibournk1,casual,Northwest US,Hindi,aggressive,5,Overwatch,Escort
+723,hbrahank2,competition level,South America,English,achiever,5,Overwatch,Escort
+724,mleveringtonk3,hardcore,Central Asia,Russian,thinker,20,Fortnite,Save the World
+725,imasserelk4,competition level,East Asia,Japanese,explorer,10,Warzone,Battle Royale
+726,smctrustamk5,hardcore,South America,Hindi,explorer,30,Fortnite,Save the World
+727,jflannk6,competition level,South US,English,aggressive,30,Mario Kart 8,Grand Prix
+728,mchishullk7,mid-core,Midwest US,Hindi,aggressive,15,Fortnite,Battle Royale
+729,adiblingk8,competition level,Northwest US,Spanish,socializer,20,Overwatch,Control
+730,dstaterfieldk9,mid-core,Midwest US,English,socializer,15,Fortnite,Party Royale
+731,rshwalbeka,hardcore,Northwest US,English,achiever,10,Overwatch,Hybrid
+732,rpaukb,hardcore,Northwest US,Hindi,thinker,20,Fortnite,Battle Royale
+733,mfulepkc,casual,Australia,Japanese,thinker,15,Fortnite,Battle Royale
+734,dmackledenkd,casual,Australia,English,explorer,10,Fortnite,Party Royale
+735,rlandrickke,casual,Western Asia,English,explorer,5,Warzone,Plunder
+736,probertaccikf,mid-core,Australia,Hindi,achiever,10,World Of Warcraft,Dungeons
+737,hwelchkg,competition level,Europe,Spanish,socializer,10,Fortnite,Party Royale
+738,llangshawkh,competition level,Western Asia,English,explorer,20,Overwatch,Elimination
+739,mkaplanki,hardcore,Northeast US,German,aggressive,10,Overwatch,Deathmatch
+740,pzielinskikj,casual,Southwest US,Spanish,socializer,10,Overwatch,Escort
+741,sstaigkk,mid-core,Northeast US,Hindi,aggressive,20,Fortnite,Save the World
+742,jsabbenkl,casual,Australia,English,thinker,30,Fortnite,Party Royale
+743,jhugonnetkm,casual,South US,Mandarin,thinker,15,Fortnite,Save the World
+744,wferraresekn,hardcore,Africa,Hindi,socializer,5,Mario Kart 8,Mario Kart TV
+745,agrolleko,basic,Africa,Hindi,casual,30,Warzone,Battle Royale
+746,mburdekp,mid-core,Southwest US,Hindi,socializer,15,World Of Warcraft,Player vs Player
+747,sinkinkq,casual,East Asia,Japanese,explorer,15,Overwatch,Assault
+748,ewrettumkr,hardcore,Southeast Asia,Hindi,casual,20,Fortnite,Battle Royale
+749,umerietks,competition level,South America,Spanish,aggressive,5,Warzone,Plunder
+750,mquillinanekt,competition level,South US,Spanish,casual,30,Fortnite,Creative
+751,bphizackerlyku,competition level,South US,Mandarin,socializer,15,Fortnite,Save the World
+752,lwardropkv,mid-core,Central Asia,Hindi,aggressive,10,World Of Warcraft,Questing
+753,ggardenkw,casual,Africa,Hindi,achiever,30,World Of Warcraft,Questing
+754,hircekx,mid-core,Northwest US,English,casual,20,Mario Kart 8,Mario Kart TV
+755,dchekeky,hardcore,Southeast Asia,French,casual,10,Overwatch,Assault
+756,lpriskkz,hardcore,Australia,English,aggressive,5,Warzone,Plunder
+757,bpaulingl0,competition level,Western Asia,Russian,achiever,15,Warzone,Plunder
+758,egwilliamsl1,casual,South Asia,Hindi,achiever,15,World Of Warcraft,Player vs Player
+759,mlovelockl2,casual,East Asia,Hindi,thinker,20,Mario Kart 8,Time Trials
+760,gbuckenhilll3,casual,Central Asia,English,achiever,30,World Of Warcraft,Questing
+761,nflohardl4,competition level,Northeast US,French,aggressive,30,Warzone,Battle Royale
+762,abirdalll5,casual,Central Asia,Mandarin,socializer,20,Warzone,Battle Royale
+763,cwhiterodl6,hardcore,Africa,Hindi,socializer,15,Overwatch,Capture the Flag
+764,cwhitsunl7,competition level,Western Asia,English,explorer,10,Warzone,Plunder
+765,ccammackl8,competition level,Northwest US,English,explorer,5,Fortnite,Creative
+766,eschlagmanl9,mid-core,Europe,German,aggressive,5,Fortnite,Party Royale
+767,cgudahyla,hardcore,East Asia,English,thinker,20,Fortnite,Creative
+768,aspeendenlb,competition level,Western Asia,Russian,casual,15,World Of Warcraft,Player vs Player
+769,mmcgaviganlc,competition level,Southwest US,Hindi,thinker,10,Mario Kart 8,Time Trials
+770,lcorsanld,competition level,Australia,Hindi,achiever,10,Overwatch,Deathmatch
+771,rstuffinsle,hardcore,Southwest US,English,thinker,30,Warzone,Plunder
+772,orosternelf,competition level,Europe,Hindi,explorer,20,World Of Warcraft,Questing
+773,mkeyholg,hardcore,Southwest US,Hindi,thinker,15,World Of Warcraft,Dungeons
+774,astarmontlh,competition level,Southwest US,English,achiever,20,Fortnite,Battle Royale
+775,ulattimoreli,competition level,Europe,French,thinker,10,Overwatch,Control
+776,jdacombelj,casual,Northwest US,Japanese,casual,15,World Of Warcraft,Questing
+777,mbortolinilk,mid-core,South America,Spanish,explorer,30,World Of Warcraft,Questing
+778,hgaylorll,basic,Europe,English,casual,15,Warzone,Battle Royale
+779,tbeadelllm,competition level,Europe,Italian,explorer,30,Overwatch,Control
+780,jrammellln,mid-core,South US,Mandarin,achiever,5,Mario Kart 8,Mario Kart TV
+781,emcgilmartinlo,competition level,South US,Mandarin,socializer,5,Mario Kart 8,Online
+782,athomazetlp,hardcore,South America,English,achiever,10,Fortnite,Creative
+783,tmereweatherlq,mid-core,South US,Mandarin,socializer,20,Mario Kart 8,Time Trials
+784,fwilliscroftlr,hardcore,South US,Mandarin,thinker,20,World Of Warcraft,Dungeons
+785,rambrosettils,competition level,Southeast Asia,French,explorer,5,Mario Kart 8,Battle
+786,lderwinlt,casual,Southeast Asia,French,explorer,5,Fortnite,Creative
+787,jwigleylu,casual,Northeast US,Spanish,socializer,30,Warzone,Battle Royale
+788,hdraycottlv,casual,Southwest US,English,socializer,20,Overwatch,Deathmatch
+789,iharslw,basic,South US,English,thinker,15,Mario Kart 8,VS Race
+790,aclutheramlx,basic,Africa,Hindi,thinker,10,Warzone,Battle Royale
+791,wdykaly,basic,South America,Spanish,explorer,15,Fortnite,Creative
+792,ktreelz,hardcore,Europe,Japanese,achiever,20,World Of Warcraft,Player vs Player
+793,mcarderm0,basic,South America,Hindi,thinker,5,World Of Warcraft,Questing
+794,eludym1,mid-core,Southwest US,Hindi,achiever,20,Mario Kart 8,Time Trials
+795,edaviotm2,basic,Central Asia,English,casual,5,Warzone,Battle Royale
+796,mderobertism3,competition level,Western Asia,Hindi,socializer,20,Warzone,Battle Royale
+797,jortlerm4,competition level,South US,Italian,socializer,30,Overwatch,Capture the Flag
+798,jnormanvillem5,mid-core,Western Asia,Hindi,achiever,20,Fortnite,Creative
+799,jpeersm6,casual,Northwest US,English,casual,15,Warzone,Battle Royale
+800,wallawym7,basic,Southeast Asia,Hindi,socializer,15,Fortnite,Battle Royale
+801,aescottm8,competition level,Central Asia,Mandarin,socializer,20,Warzone,Plunder
+802,cemmam9,competition level,Southeast Asia,French,casual,10,Fortnite,Battle Royale
+803,alitelma,hardcore,Southeast Asia,French,thinker,5,Warzone,Plunder
+804,erubenczykmb,basic,Midwest US,Spanish,socializer,5,Mario Kart 8,Mario Kart TV
+805,pscotchforthmc,hardcore,Africa,Hindi,aggressive,15,Fortnite,Party Royale
+806,smacaindreismd,hardcore,Northeast US,French,thinker,10,Warzone,Battle Royale
+807,econringme,casual,Northeast US,Spanish,explorer,20,Warzone,Plunder
+808,paggottmf,hardcore,Africa,Hindi,explorer,20,Mario Kart 8,Battle
+809,tsillemg,mid-core,Northwest US,Hindi,aggressive,10,World Of Warcraft,Dungeons
+810,dpaigemh,hardcore,South US,Spanish,aggressive,5,Fortnite,Battle Royale
+811,rbrittlebankmi,basic,Southeast Asia,Hindi,aggressive,15,Mario Kart 8,Time Trials
+812,schetwinmj,hardcore,Northeast US,Hindi,casual,5,World Of Warcraft,Questing
+813,vtorticemk,competition level,Australia,Japanese,socializer,20,Warzone,Battle Royale
+814,aansteyml,basic,Western Asia,Hindi,socializer,30,Fortnite,Battle Royale
+815,afardoemm,basic,East Asia,Mandarin,explorer,10,Overwatch,Capture the Flag
+816,vsurcombemn,mid-core,Northeast US,German,thinker,20,Overwatch,Capture the Flag
+817,schastanetmo,hardcore,Southeast Asia,English,achiever,10,Warzone,Battle Royale
+818,mslowgravemp,mid-core,South Asia,Hindi,achiever,30,Fortnite,Save the World
+819,cshellibeermq,casual,South US,English,achiever,10,Warzone,Battle Royale
+820,mdearmr,competition level,Southeast Asia,English,achiever,30,Warzone,Battle Royale
+821,cbrogiottims,competition level,Australia,English,achiever,15,Overwatch,Control
+822,hbrounsellmt,competition level,Northeast US,French,thinker,20,Mario Kart 8,Mario Kart TV
+823,mduiganmu,competition level,Australia,Hindi,casual,5,World Of Warcraft,Questing
+824,lschulkenmv,basic,Northwest US,Japanese,casual,10,Overwatch,Elimination
+825,lwoodyermw,casual,Northeast US,German,thinker,5,World Of Warcraft,Dungeons
+826,rfoulkesmx,casual,South Asia,Hindi,aggressive,5,Fortnite,Battle Royale
+827,molyfantmy,basic,Southwest US,English,casual,5,Mario Kart 8,VS Race
+828,delesandermz,competition level,East Asia,Japanese,explorer,15,World Of Warcraft,Questing
+829,keppersonn0,mid-core,South Asia,Hindi,socializer,30,Overwatch,Deathmatch
+830,sbrinkworthn1,casual,Southeast Asia,English,casual,5,Fortnite,Battle Royale
+831,mbleacklyn2,casual,Europe,Mandarin,thinker,5,Mario Kart 8,Online
+832,mstrangwardn3,mid-core,South Asia,Hindi,aggressive,10,Overwatch,Deathmatch
+833,ljoinern4,hardcore,Africa,English,achiever,20,World Of Warcraft,Dungeons
+834,wlepiscopion5,casual,East Asia,Japanese,socializer,10,Fortnite,Save the World
+835,kfitzmauricen6,basic,East Asia,Japanese,explorer,15,Mario Kart 8,Grand Prix
+836,bselcraign7,casual,Western Asia,Russian,explorer,15,World Of Warcraft,Dungeons
+837,amacclanceyn8,basic,Southwest US,English,achiever,5,World Of Warcraft,Questing
+838,dwildmann9,basic,Southeast Asia,English,explorer,10,Fortnite,Party Royale
+839,bstitchna,casual,Southeast Asia,Hindi,explorer,30,Warzone,Plunder
+840,cantrobusnb,mid-core,Australia,Japanese,achiever,20,Mario Kart 8,VS Race
+841,bsievewrightnc,hardcore,Southwest US,English,casual,20,Warzone,Battle Royale
+842,sbyresnd,competition level,South America,Hindi,socializer,30,Overwatch,Hybrid
+843,jniemetzne,mid-core,Southeast Asia,French,thinker,20,Fortnite,Party Royale
+844,spottesnf,casual,Australia,Japanese,explorer,30,Overwatch,Deathmatch
+845,gdamerellng,mid-core,South America,Hindi,socializer,5,Warzone,Plunder
+846,hwallbrooknh,mid-core,South Asia,Hindi,casual,15,World Of Warcraft,Questing
+847,hberthodni,casual,Southwest US,English,achiever,30,Mario Kart 8,Mario Kart TV
+848,davannnj,basic,Southwest US,Hindi,aggressive,5,Fortnite,Battle Royale
+849,jkeavenynk,casual,Northeast US,German,casual,10,Overwatch,Assault
+850,karmernl,basic,South Asia,English,socializer,5,Warzone,Battle Royale
+851,sdobbsonnm,hardcore,East Asia,French,achiever,30,Warzone,Plunder
+852,cpickthornnn,competition level,Western Asia,Russian,explorer,5,Fortnite,Party Royale
+853,wfarrowno,mid-core,Australia,Hindi,aggressive,30,Warzone,Battle Royale
+854,mmonteznp,hardcore,Midwest US,English,explorer,30,Mario Kart 8,Online
+855,mloveittnq,competition level,Central Asia,English,explorer,10,Warzone,Plunder
+856,cdigglenr,basic,South Asia,Hindi,casual,10,Warzone,Plunder
+857,wgilcristns,hardcore,Southwest US,English,socializer,30,Mario Kart 8,Online
+858,igarriquent,basic,Southwest US,English,socializer,20,Fortnite,Battle Royale
+859,wwoolattnu,mid-core,Western Asia,Hindi,explorer,30,Warzone,Plunder
+860,vkidwellnv,competition level,Europe,German,achiever,15,Warzone,Battle Royale
+861,oskeggnw,mid-core,Central Asia,Mandarin,thinker,20,World Of Warcraft,Questing
+862,dvamplusnx,competition level,Africa,Hindi,explorer,20,Fortnite,Save the World
+863,gcosbeeny,hardcore,Southwest US,Hindi,thinker,15,Mario Kart 8,Battle
+864,vlammersnz,basic,Western Asia,Russian,socializer,30,Overwatch,Deathmatch
+865,abrowno0,mid-core,Northwest US,English,achiever,5,World Of Warcraft,Dungeons
+866,fleggitto1,casual,Central Asia,English,socializer,5,Mario Kart 8,Battle
+867,dsnedkero2,casual,East Asia,Hindi,explorer,10,Overwatch,Elimination
+868,lvandenveldeno3,competition level,Southwest US,English,achiever,15,Fortnite,Creative
+869,cleyborneo4,basic,Western Asia,Hindi,achiever,15,Fortnite,Creative
+870,tswatheridgeo5,hardcore,Southeast Asia,French,explorer,30,Fortnite,Party Royale
+871,klightbowneo6,casual,Western Asia,Hindi,explorer,10,Warzone,Battle Royale
+872,ogoodbarneo7,casual,South Asia,Hindi,achiever,20,Fortnite,Creative
+873,bsheffieldo8,competition level,South US,Mandarin,explorer,30,Warzone,Plunder
+874,makerso9,basic,Central Asia,Hindi,socializer,15,Warzone,Battle Royale
+875,hfavelaoa,basic,Europe,German,explorer,5,Fortnite,Party Royale
+876,dgellatelyob,mid-core,Northwest US,Hindi,aggressive,5,Fortnite,Battle Royale
+877,cfindlateroc,competition level,East Asia,Mandarin,explorer,30,Warzone,Plunder
+878,wandryszczakod,hardcore,Africa,English,achiever,10,Warzone,Battle Royale
+879,fyounieoe,mid-core,Southeast Asia,English,aggressive,20,Mario Kart 8,Mario Kart TV
+880,mpiperof,mid-core,South US,English,aggressive,20,Fortnite,Party Royale
+881,jabrahamowitczog,basic,Africa,English,aggressive,20,Warzone,Battle Royale
+882,gsparyoh,hardcore,Northeast US,German,thinker,5,Fortnite,Battle Royale
+883,wmcilherranoi,competition level,Australia,Hindi,achiever,30,World Of Warcraft,Player vs Player
+884,lbachmanoj,basic,Northeast US,English,socializer,15,Warzone,Battle Royale
+885,jbradmanok,competition level,Africa,English,explorer,30,Fortnite,Creative
+886,akinchleaol,mid-core,East Asia,French,thinker,20,Warzone,Plunder
+887,hromiom,casual,Central Asia,Hindi,casual,20,Overwatch,Elimination
+888,qheinigon,casual,Southwest US,English,socializer,5,World Of Warcraft,Player vs Player
+889,msnyderoo,casual,Southeast Asia,Hindi,thinker,10,Warzone,Battle Royale
+890,gcastelijnop,casual,Southwest US,English,explorer,30,Overwatch,Assault
+891,dkleemanoq,competition level,Southeast Asia,Hindi,achiever,20,Fortnite,Creative
+892,fdaintreyor,basic,Northwest US,English,aggressive,10,Overwatch,Hybrid
+893,dbattos,casual,Northwest US,Japanese,achiever,5,World Of Warcraft,Player vs Player
+894,mmacfadyenot,basic,Northeast US,German,explorer,20,Overwatch,Control
+895,madenotou,basic,Northwest US,Japanese,explorer,10,Warzone,Plunder
+896,odavydenkoov,casual,Central Asia,Mandarin,aggressive,5,World Of Warcraft,Dungeons
+897,laggsow,hardcore,Northeast US,French,achiever,20,Fortnite,Save the World
+898,pbernatox,hardcore,South America,Spanish,aggressive,20,Warzone,Battle Royale
+899,rchurchleyoy,mid-core,South America,Hindi,explorer,5,Fortnite,Creative
+900,shakonsenoz,mid-core,Northeast US,Japanese,socializer,10,Overwatch,Elimination
+901,todulchontap0,casual,Central Asia,Russian,aggressive,5,Fortnite,Creative
+902,vspirrittp1,competition level,Northwest US,Spanish,explorer,20,Warzone,Battle Royale
+903,adowtryp2,basic,Southeast Asia,Hindi,casual,5,Overwatch,Escort
+904,mscrannyp3,competition level,Midwest US,Spanish,aggressive,10,World Of Warcraft,Player vs Player
+905,aguillermanp4,casual,Northwest US,Hindi,achiever,15,Overwatch,Deathmatch
+906,cmagowanp5,basic,Western Asia,English,casual,30,Mario Kart 8,Battle
+907,warguep6,casual,Southwest US,Spanish,aggressive,10,Mario Kart 8,Grand Prix
+908,pbalmerp7,hardcore,South America,Spanish,explorer,15,Mario Kart 8,Mario Kart TV
+909,lbridgelandp8,casual,Northwest US,Hindi,casual,20,Overwatch,Elimination
+910,smckaguep9,hardcore,Midwest US,English,achiever,30,Overwatch,Capture the Flag
+911,gdoleypa,casual,Africa,Hindi,aggressive,5,Mario Kart 8,Mario Kart TV
+912,wgreenhalfpb,hardcore,Central Asia,Mandarin,achiever,10,Warzone,Battle Royale
+913,lbritnerpc,basic,South America,English,explorer,10,Overwatch,Assault
+914,sreynaultpd,competition level,Northeast US,Spanish,aggressive,20,Fortnite,Battle Royale
+915,mskeatespe,casual,Central Asia,Russian,casual,30,Warzone,Battle Royale
+916,dblakeboroughpf,hardcore,Europe,Mandarin,socializer,5,Fortnite,Save the World
+917,dredishpg,basic,Midwest US,English,socializer,20,Mario Kart 8,Battle
+918,cstaresph,hardcore,Western Asia,Russian,socializer,15,Mario Kart 8,Online
+919,mnewisspi,casual,Australia,Japanese,achiever,15,World Of Warcraft,Questing
+920,bgonnelypj,competition level,Australia,English,socializer,30,Overwatch,Elimination
+921,olawlanpk,casual,Central Asia,English,achiever,30,Fortnite,Party Royale
+922,scolombierpl,hardcore,Australia,English,thinker,30,World Of Warcraft,Dungeons
+923,briepelpm,basic,Northeast US,Mandarin,achiever,15,Warzone,Battle Royale
+924,dswiggspn,casual,South US,Mandarin,achiever,20,Mario Kart 8,Time Trials
+925,gjiracekpo,competition level,Western Asia,Russian,explorer,5,Fortnite,Battle Royale
+926,ckohrtpp,competition level,South America,Hindi,achiever,20,Warzone,Plunder
+927,hsedgmondpq,competition level,East Asia,Mandarin,casual,15,Fortnite,Battle Royale
+928,cparsellpr,basic,Southwest US,Hindi,thinker,20,Mario Kart 8,Mario Kart TV
+929,pcutmoreps,competition level,Southwest US,Spanish,aggressive,30,Fortnite,Creative
+930,jwightmanpt,hardcore,Midwest US,English,socializer,20,World Of Warcraft,Dungeons
+931,clucuspu,basic,Australia,Japanese,aggressive,30,World Of Warcraft,Dungeons
+932,ksandersonpv,hardcore,South US,Spanish,aggressive,30,Mario Kart 8,Online
+933,alambartpw,hardcore,Africa,English,aggressive,5,Warzone,Plunder
+934,jsamettpx,casual,Northeast US,French,thinker,5,Fortnite,Party Royale
+935,qwoodyearepy,hardcore,Australia,Hindi,explorer,20,Fortnite,Save the World
+936,shaetpz,basic,South US,English,explorer,20,World Of Warcraft,Dungeons
+937,trallingq0,mid-core,Northwest US,Hindi,casual,15,Mario Kart 8,Mario Kart TV
+938,rwhilesq1,competition level,Africa,Hindi,casual,15,Warzone,Plunder
+939,mdederickq2,hardcore,Australia,Hindi,achiever,15,Mario Kart 8,Online
+940,jyukhnevichq3,casual,Southwest US,Spanish,thinker,15,Fortnite,Battle Royale
+941,rmatschkeq4,competition level,Northwest US,Hindi,explorer,15,Overwatch,Hybrid
+942,wbroschkeq5,casual,Midwest US,English,socializer,20,Warzone,Plunder
+943,bdobingq6,casual,Southwest US,English,aggressive,30,Mario Kart 8,Time Trials
+944,dchieseq7,mid-core,Western Asia,Russian,achiever,30,Warzone,Plunder
+945,gfreearq8,basic,Southwest US,English,socializer,10,Fortnite,Party Royale
+946,nmanusq9,basic,South US,English,thinker,5,Mario Kart 8,Online
+947,zvonhindenburgqa,competition level,Western Asia,English,casual,5,Fortnite,Save the World
+948,kbernhardssonqb,mid-core,Central Asia,English,explorer,20,World Of Warcraft,Dungeons
+949,mblackdenqc,hardcore,Australia,English,thinker,15,Warzone,Battle Royale
+950,fprahlqd,basic,South America,Hindi,achiever,10,World Of Warcraft,Questing
+951,eexleyqe,casual,Southeast Asia,French,casual,20,Warzone,Battle Royale
+952,dcammomileqf,hardcore,East Asia,Japanese,achiever,30,Fortnite,Battle Royale
+953,jaldersleyqg,casual,Western Asia,Russian,explorer,5,Overwatch,Control
+954,wsymersqh,hardcore,Western Asia,Hindi,aggressive,20,Overwatch,Elimination
+955,edelahayqi,basic,Europe,French,achiever,5,Mario Kart 8,Mario Kart TV
+956,kromaineqj,hardcore,South Asia,Hindi,thinker,30,Fortnite,Party Royale
+957,kbriantqk,hardcore,Southeast Asia,Hindi,casual,30,World Of Warcraft,Questing
+958,bborhamql,hardcore,Australia,English,casual,15,Warzone,Plunder
+959,jtatemqm,competition level,South America,English,socializer,30,Mario Kart 8,Mario Kart TV
+960,falbonqn,hardcore,South Asia,Hindi,socializer,5,World Of Warcraft,Dungeons
+961,hbatchqo,hardcore,Western Asia,Russian,explorer,30,Fortnite,Party Royale
+962,iohingertyqp,basic,South US,Italian,thinker,20,Fortnite,Save the World
+963,nmcgroutherqq,hardcore,South America,English,aggressive,20,Mario Kart 8,VS Race
+964,nfitchqr,competition level,Midwest US,English,socializer,30,Fortnite,Save the World
+965,egreenhillqs,basic,Africa,Hindi,socializer,15,Mario Kart 8,VS Race
+966,hivanenkovqt,basic,Australia,Japanese,socializer,30,Warzone,Battle Royale
+967,kwillersqu,hardcore,East Asia,Japanese,aggressive,10,Overwatch,Assault
+968,oblomfieldqv,basic,Africa,English,achiever,15,Warzone,Battle Royale
+969,lbednellqw,hardcore,East Asia,Japanese,aggressive,10,Mario Kart 8,Grand Prix
+970,msicelyqx,competition level,Central Asia,English,achiever,5,Fortnite,Save the World
+971,dgorhardtqy,basic,South Asia,Hindi,socializer,5,Mario Kart 8,Online
+972,rblinmanqz,competition level,Europe,Italian,achiever,30,Overwatch,Capture the Flag
+973,ofarrimondr0,casual,Northwest US,English,casual,15,World Of Warcraft,Dungeons
+974,cgerringr1,casual,Central Asia,Mandarin,socializer,30,Overwatch,Elimination
+975,vashfullr2,mid-core,Northeast US,Japanese,explorer,30,World Of Warcraft,Player vs Player
+976,sstanyardr3,casual,Australia,Japanese,socializer,30,Fortnite,Creative
+977,oshinfieldr4,mid-core,Southeast Asia,French,aggressive,10,Warzone,Battle Royale
+978,adunhamr5,hardcore,South Asia,Hindi,explorer,20,World Of Warcraft,Player vs Player
+979,bgoodar6,hardcore,Northeast US,Japanese,thinker,15,Overwatch,Hybrid
+980,fbalsomr7,basic,Northwest US,English,casual,15,World Of Warcraft,Player vs Player
+981,hcurnockr8,casual,South America,Hindi,explorer,20,Fortnite,Battle Royale
+982,mclaxtonr9,mid-core,Europe,Japanese,explorer,20,Fortnite,Party Royale
+983,mchatterisra,basic,South Asia,Hindi,thinker,20,Mario Kart 8,Time Trials
+984,bworsnaprb,hardcore,Africa,Hindi,explorer,20,Mario Kart 8,Online
+985,rglayzerrc,casual,Western Asia,Hindi,socializer,5,Warzone,Battle Royale
+986,cpocockrd,mid-core,South US,English,explorer,5,World Of Warcraft,Dungeons
+987,pbartlesre,competition level,Northeast US,Hindi,explorer,15,Overwatch,Elimination
+988,nvazquezrf,mid-core,Africa,Hindi,thinker,15,Fortnite,Save the World
+989,ihammertonrg,casual,Europe,Spanish,casual,5,World Of Warcraft,Questing
+990,pbricerh,casual,Australia,English,achiever,20,Warzone,Plunder
+991,reliyahuri,basic,Western Asia,English,socializer,10,Warzone,Battle Royale
+992,mlabernrj,hardcore,Africa,English,socializer,5,Warzone,Plunder
+993,hpeerk,hardcore,South US,Mandarin,socializer,20,Warzone,Battle Royale
+994,vrollasonrl,basic,South Asia,Hindi,achiever,30,Mario Kart 8,VS Race
+995,lfosterrm,hardcore,Southeast Asia,English,aggressive,15,Overwatch,Assault
+996,vgirkinrn,basic,Australia,Hindi,socializer,15,Mario Kart 8,Grand Prix
+997,aemblingro,hardcore,Africa,English,socializer,30,Warzone,Plunder
+998,aalmeidarp,mid-core,South Asia,Hindi,casual,5,Warzone,Battle Royale
+999,lleanderrq,competition level,East Asia,Japanese,aggressive,15,Overwatch,Elimination
+1000,mcattrellrr,basic,Southwest US,English,explorer,15,Fortnite,Party Royale
