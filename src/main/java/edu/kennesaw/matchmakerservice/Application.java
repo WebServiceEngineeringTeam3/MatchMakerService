@@ -1,4 +1,4 @@
-package com.kennesaw.rewardsmanagementsystem;
+package edu.kennesaw.matchmakerservice;
 
 
 import org.springframework.boot.SpringApplication;

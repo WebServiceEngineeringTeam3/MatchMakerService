@@ -1,8 +1,11 @@
 package edu.kennesaw.matchmakerservice.to;
 
-public class PlayerInfo {
+import java.util.List;
+
+public class PlayerInfoTO {
     private String gamerId;
-    private String fullName;
+    private String firstName;
+    private String lastName;
     private String skillLevel;
     private String region;
     private String language;
@@ -10,12 +13,15 @@ public class PlayerInfo {
     private String minimumWaitTime;
     private String game;
     private String gameMode;
+    private List<String> friendsList;
+    private List<String> groupsList;
 
-    public PlayerInfo(){}
+    public PlayerInfoTO(){}
 
-    public PlayerInfo(String gamerId, String fullName, String skillLevel, String region, String language, String personalityType, String minimumWaitTime, String game, String gameMode) {
+    public PlayerInfoTO(String gamerId, String firstName, String lastName, String skillLevel, String region, String language, String personalityType, String minimumWaitTime, String game, String gameMode) {
         this.gamerId = gamerId;
-        this.fullName = fullName;
+        this.firstName = firstName;
+        this.lastName = lastName;
         this.skillLevel = skillLevel;
         this.region = region;
         this.language = language;
@@ -23,6 +29,21 @@ public class PlayerInfo {
         this.minimumWaitTime = minimumWaitTime;
         this.game = game;
         this.gameMode = gameMode;
+    }
+
+    public PlayerInfoTO(String gamerId, String firstName, String lastName, String skillLevel, String region, String language, String personalityType, String minimumWaitTime, String game, String gameMode, List<String> friendsList, List<String> groupsList) {
+        this.gamerId = gamerId;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.skillLevel = skillLevel;
+        this.region = region;
+        this.language = language;
+        this.personalityType = personalityType;
+        this.minimumWaitTime = minimumWaitTime;
+        this.game = game;
+        this.gameMode = gameMode;
+        this.friendsList = friendsList;
+        this.groupsList = groupsList;
     }
 
     public String getGamerId() {
@@ -33,12 +54,20 @@ public class PlayerInfo {
         this.gamerId = gamerId;
     }
 
-    public String getFullName() {
-        return fullName;
+    public String getFirstName() {
+        return firstName;
     }
 
-    public void setFullName(String fullName) {
-        this.fullName = fullName;
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 
     public String getSkillLevel() {
@@ -97,11 +126,28 @@ public class PlayerInfo {
         this.minimumWaitTime = minimumWaitTime;
     }
 
+    public List<String> getFriendsList() {
+        return friendsList;
+    }
+
+    public void setFriendsList(List<String> friendsList) {
+        this.friendsList = friendsList;
+    }
+
+    public List<String> getGroupsList() {
+        return groupsList;
+    }
+
+    public void setGroupsList(List<String> groupsList) {
+        this.groupsList = groupsList;
+    }
+
     @Override
     public String toString() {
-        return "PlayerInfo{" +
+        return "PlayerInfoTO{" +
                 "gamerId='" + gamerId + '\'' +
-                ", fullName='" + fullName + '\'' +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
                 ", skillLevel='" + skillLevel + '\'' +
                 ", region='" + region + '\'' +
                 ", language='" + language + '\'' +
@@ -109,6 +155,8 @@ public class PlayerInfo {
                 ", minimumWaitTime='" + minimumWaitTime + '\'' +
                 ", game='" + game + '\'' +
                 ", gameMode='" + gameMode + '\'' +
+                ", friendsList=" + friendsList +
+                ", groupsList=" + groupsList +
                 '}';
     }
 }

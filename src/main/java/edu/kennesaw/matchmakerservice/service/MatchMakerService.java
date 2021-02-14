@@ -1,8 +1,9 @@
 package edu.kennesaw.matchmakerservice.service;
 
+import edu.kennesaw.matchmakerservice.datamodel.PlayerInfo;
 import edu.kennesaw.matchmakerservice.manager.MatchMakerManager;
 import edu.kennesaw.matchmakerservice.to.MatchMakerResponse;
-import edu.kennesaw.matchmakerservice.to.PlayerInfo;
+import edu.kennesaw.matchmakerservice.to.PlayerInfoTO;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
