@@ -48,7 +48,7 @@ DROP TABLE IF EXISTS `gamers`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `gamers` (
-  `id` int NOT NULL,
+  `gamer_id` varchar(10) PRIMARY KEY NOT NULL,
   `gamer_name` varchar(45) DEFAULT NULL,
   `skill_level` varchar(45) DEFAULT NULL,
   `region` varchar(45) DEFAULT NULL,
@@ -56,8 +56,7 @@ CREATE TABLE `gamers` (
   `personality_type` varchar(45) DEFAULT NULL,
   `minimum_wait_time` int DEFAULT NULL,
   `preferred_game` varchar(45) DEFAULT NULL,
-  `preferred_game_mode` varchar(45) DEFAULT NULL,
-  PRIMARY KEY (`id`)
+  `preferred_game_mode` varchar(45) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
