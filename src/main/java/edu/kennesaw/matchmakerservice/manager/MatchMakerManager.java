@@ -1,14 +1,15 @@
 package edu.kennesaw.matchmakerservice.manager;
 
-import edu.kennesaw.matchmakerservice.datamodel.PlayerInfo;
-import edu.kennesaw.matchmakerservice.repo.PlayerInfoRepository;
+import edu.kennesaw.matchmakerservice.repo.Repository;
 import edu.kennesaw.matchmakerservice.to.ErrorResponse;
 import edu.kennesaw.matchmakerservice.to.MatchMakerResponse;
+import edu.kennesaw.matchmakerservice.to.PlayerInfo;
 import edu.kennesaw.matchmakerservice.util.Constants;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 
+import java.sql.SQLException;
 import java.util.logging.Logger;
 
 @Component
@@ -17,7 +18,7 @@ public class MatchMakerManager {
     private static final Logger LOGGER = Logger.getLogger(MatchMakerManager.class.getName());
 
     @Autowired
-    PlayerInfoRepository repo;
+    Repository repo;
 
     public MatchMakerResponse processPlayer(PlayerInfo player) {
         MatchMakerResponse response = new MatchMakerResponse();
@@ -26,9 +27,9 @@ public class MatchMakerManager {
 
         //Check to see if given gamer Id exists in database
         try{
-            dbPlayer = repo.findPlayerInfoByGamerId(player.getGamerId());
+            dbPlayer = repo.getPlayerInformation(player.getGamerId());
         }
-        catch(Exception e){
+        catch(SQLException e){
             LOGGER.info("Exception occurred in processPlayer method during player search: " + e.getMessage());
             response.setErrorResponse(getErrorResponse(Constants.CODE_SERVICE_ERROR, Constants.MESSAGE_SERVICE_ERROR));
         }
@@ -41,9 +42,9 @@ public class MatchMakerManager {
             try {
                 response.setGamerId(player.getGamerId());
                 response.setPlayerInfo(player);
-                repo.save(player);
+                repo.addNewPlayer(player);
             }
-            catch(Exception e) {
+            catch(SQLException e) {
                 LOGGER.info("Exception occurred in processPlayer method during insertion: " + e.getMessage());
                 response.setErrorResponse(getErrorResponse(Constants.CODE_SERVICE_ERROR, Constants.MESSAGE_SERVICE_ERROR));
             }
@@ -54,12 +55,10 @@ public class MatchMakerManager {
             try {
                 response.setGamerId(player.getGamerId());
                 response.setPlayerInfo(player);
-                //TODO: Need to see how repo can update a player
-               // boolean result = repo.editPlayer(player);
-                boolean result = true;
+                boolean result = repo.editPlayer(player);
                 if(!result) {response.setErrorResponse(getErrorResponse(Constants.CODE_SERVICE_ERROR, Constants.MESSAGE_SERVICE_ERROR));}
             }
-            catch(Exception e) {
+            catch(SQLException e) {
                 LOGGER.info("Exception occurred in processPlayer method during update: " + e.getMessage());
                 response.setErrorResponse(getErrorResponse(Constants.CODE_SERVICE_ERROR, Constants.MESSAGE_SERVICE_ERROR));
             }
