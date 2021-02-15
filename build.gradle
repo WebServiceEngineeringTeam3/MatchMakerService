@@ -33,17 +33,13 @@ dependencies {
     compile group: 'io.swagger', name: 'swagger-jaxrs', version: '1.5.18'
     compile 'com.mangofactory:swagger-springmvc:1.0.2'
 
-    //Spring Data and DynamoDB
-    compile group: 'org.springframework.data', name: 'spring-data-jpa'
-    compile group: 'com.amazonaws', name: 'aws-java-sdk-dynamodb'
-    compile group: 'com.github.derjust', name: 'spring-data-dynamodb', version: '5.0.4'
-
     implementation 'org.springframework.boot:spring-boot-starter-actuator'
     implementation 'org.springframework.boot:spring-boot-starter-cloud-connectors'
     implementation 'org.springframework.boot:spring-boot-starter-jersey'
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'io.pivotal.spring.cloud:spring-cloud-services-starter-config-client'
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
+    runtimeOnly 'mysql:mysql-connector-java'
     testImplementation('org.springframework.boot:spring-boot-starter-test') {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
     }

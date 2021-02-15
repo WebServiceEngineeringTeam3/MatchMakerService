@@ -1,7 +1,5 @@
 package edu.kennesaw.matchmakerservice.to;
 
-import edu.kennesaw.matchmakerservice.datamodel.PlayerInfo;
-
 public class MatchMakerResponse {
 
 	private String gamerId;
