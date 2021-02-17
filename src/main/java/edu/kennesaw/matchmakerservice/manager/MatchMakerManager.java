@@ -2,12 +2,12 @@ package edu.kennesaw.matchmakerservice.manager;
 
 import edu.kennesaw.matchmakerservice.repo.Repository;
 import edu.kennesaw.matchmakerservice.to.ErrorResponse;
+import edu.kennesaw.matchmakerservice.to.MatchMakerRequest;
 import edu.kennesaw.matchmakerservice.to.MatchMakerResponse;
 import edu.kennesaw.matchmakerservice.to.PlayerInfo;
 import edu.kennesaw.matchmakerservice.util.Constants;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import org.springframework.util.StringUtils;
 
 import java.sql.SQLException;
 import java.util.logging.Logger;
@@ -20,23 +20,12 @@ public class MatchMakerManager {
     @Autowired
     Repository repo;
 
-    public MatchMakerResponse processPlayer(PlayerInfo player) {
+    public MatchMakerResponse processPlayer(MatchMakerRequest request) {
         MatchMakerResponse response = new MatchMakerResponse();
-        PlayerInfo dbPlayer = new PlayerInfo();
         LOGGER.info("Begin to process player");
+        PlayerInfo player = request.getPlayerInfo();
 
-        //Check to see if given gamer Id exists in database
-        try{
-            dbPlayer = repo.getPlayerInformation(player.getGamerId());
-        }
-        catch(SQLException e){
-            LOGGER.info("Exception occurred in processPlayer method during player search: " + e.getMessage());
-            response.setErrorResponse(getErrorResponse(Constants.CODE_SERVICE_ERROR, Constants.MESSAGE_SERVICE_ERROR));
-        }
-
-        //If repo does not have given gamer Id, then add player
-        //Else update player information with given ID
-        if(StringUtils.isEmpty(dbPlayer.getGamerId())) {
+        if(request.getCrudType().equalsIgnoreCase(Constants.CREATE_OPERATION)){
             LOGGER.info("Adding new player: " + player.getFirstName() + " " + player.getLastName());
             LOGGER.info("With Gamer ID: " + player.getGamerId());
             try {
@@ -49,7 +38,7 @@ public class MatchMakerManager {
                 response.setErrorResponse(getErrorResponse(Constants.CODE_SERVICE_ERROR, Constants.MESSAGE_SERVICE_ERROR));
             }
         }
-        else {
+        else if (request.getCrudType().equalsIgnoreCase(Constants.UPDATE_OPERATION)){
             String gamerId = player.getGamerId();
             LOGGER.info("Updating player: " + gamerId);
             try {
