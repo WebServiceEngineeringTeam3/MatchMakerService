@@ -8,6 +8,7 @@ import edu.kennesaw.matchmakerservice.to.PlayerInfo;
 import edu.kennesaw.matchmakerservice.util.Constants;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import org.springframework.util.StringUtils;
 
 import java.sql.SQLException;
 import java.util.logging.Logger;
@@ -54,6 +55,29 @@ public class MatchMakerManager {
         }
 
         LOGGER.info("End player processing");
+        return response;
+    }
+
+    public MatchMakerResponse getPlayer(String gamerId){
+        MatchMakerResponse response = new MatchMakerResponse();
+        response.setGamerId(gamerId);
+        LOGGER.info("Begin to get player with gamerId: " + gamerId);
+        PlayerInfo player = new PlayerInfo();
+
+        try {
+            player = repo.getPlayerInformation(gamerId);
+        }
+        catch(SQLException e) {
+            LOGGER.info("Exception occurred in getPlayer method during read: " + e.getMessage());
+            response.setErrorResponse(getErrorResponse(Constants.CODE_SERVICE_ERROR, Constants.MESSAGE_SERVICE_ERROR));
+        }
+
+        if(StringUtils.isEmpty(player.getGamerId())){
+            response.setErrorResponse(getErrorResponse(Constants.CODE_RESOURCE_NOT_AVAILABLE, Constants.MESSAGE_RESOURCE_NOT_AVAILABLE));
+        }
+        else{
+            response.setPlayerInfo(player);
+        }
         return response;
     }
 

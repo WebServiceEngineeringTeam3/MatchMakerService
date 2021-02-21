@@ -8,11 +8,10 @@ public class DatabaseConfig {
 
     public DatabaseConfig(){}
 
-    //TODO: NEED TO UPDATE CREDENTIALS DEPENDING ON ENVIRONMENT
     public static final String MYSQL_DRIVER_CLASS_NAME= "com.mysql.jdbc.Driver";
-    public static final String USERNAME = "root";
-    public static final String PASSWORD = "cisco2017";
-    public static final String MYSQL_DB = "jdbc:mysql://localhost:3306/rms?useSSL=false";
+    public static final String USERNAME = "gamer";
+    public static final String PASSWORD = "gamer123";
+    public static final String MYSQL_DB = "jdbc:mysql://mysql-19988-0.cloudclusters.net:19988/MatchMaker?useSSL=false";
 
     public Connection getConnection(){
         Connection conn = null;
