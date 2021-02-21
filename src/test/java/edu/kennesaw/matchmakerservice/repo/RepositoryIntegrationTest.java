@@ -30,7 +30,7 @@ public class RepositoryIntegrationTest {
     @Test
     @Ignore
     public void test01_addNewPlayer_Success() throws SQLException {
-        PlayerInfo player = new PlayerInfo("ungo1985", "Eric", "Acevedo", "Advanced", "Southeast US", "English", "casual", "4", "Overwatch", "Competitive");
+        PlayerInfo player = new PlayerInfo("cisco94", "Eric", "Acevedo", 35,"Advanced", "Southeast US", "English", "casual", 4, "Overwatch", "Competitive");
         boolean result = repo.addNewPlayer(player);
         assertTrue(result);
     }
