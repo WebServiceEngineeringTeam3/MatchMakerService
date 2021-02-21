@@ -16,6 +16,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
 
+import java.sql.SQLException;
+
 @RestController
 @RequestMapping("/matchmaker")
 public class MatchMakerService {
@@ -44,6 +46,23 @@ public class MatchMakerService {
             return new ResponseEntity<>(response, new HttpHeaders(), HttpStatus.BAD_REQUEST);
         }
         return new ResponseEntity<>(manager.processPlayer(request), new HttpHeaders(), HttpStatus.OK);
+    }
+
+    @ApiOperation(value = "getPlayer", notes = "getPlayer",
+            httpMethod = "GET", consumes = "application/json", produces = "application/json")
+    @ApiResponses(value = {
+            @ApiResponse(code = 200, message = "Success", response = MatchMakerResponse.class),
+            @ApiResponse(code = 204, message = "Resource Unavailable"),
+            @ApiResponse(code = 400, message = "Bad Request"),
+            @ApiResponse(code = 401, message = "Unauthorized"),
+            @ApiResponse(code = 500, message = "Internal server error"),
+            @ApiResponse(code = 503, message = "Service Unavailable"),
+            @ApiResponse(code = 504, message = "Service Time Out")})
+    @CrossOrigin
+    @GetMapping("/getPlayer")
+    public @ResponseBody
+    ResponseEntity<MatchMakerResponse> getPlayerInformation(@RequestParam(name="gamerId", required=true) String gamerId) {
+        return new ResponseEntity<>(manager.getPlayer(gamerId), new HttpHeaders(), HttpStatus.OK);
     }
 
     public boolean isValidRequest(MatchMakerRequest request){
