@@ -1,6 +1,7 @@
-package edu.kennesaw.matchmakerservice.repo;
+package edu.kennesaw.matchmakerservice.integration.repo;
 
 import edu.kennesaw.matchmakerservice.Application;
+import edu.kennesaw.matchmakerservice.repo.Repository;
 import edu.kennesaw.matchmakerservice.to.PlayerInfo;
 import org.junit.FixMethodOrder;
 import org.junit.Ignore;
