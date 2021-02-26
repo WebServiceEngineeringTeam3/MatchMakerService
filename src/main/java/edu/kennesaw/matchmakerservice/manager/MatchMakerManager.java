@@ -32,7 +32,11 @@ public class MatchMakerManager {
             try {
                 response.setGamerId(player.getGamerId());
                 response.setPlayerInfo(player);
-                repo.addNewPlayer(player);
+                boolean inserted = repo.addNewPlayer(player);
+                if(!inserted){
+                    LOGGER.info("Record not inserted in processPlayer method for gamerId: " + player.getGamerId());
+                    response.setErrorResponse(getErrorResponse(Constants.CODE_SERVICE_ERROR, Constants.MESSAGE_SERVICE_ERROR));
+                }
             }
             catch(SQLException e) {
                 LOGGER.info("Exception occurred in processPlayer method during insertion: " + e.getMessage());
