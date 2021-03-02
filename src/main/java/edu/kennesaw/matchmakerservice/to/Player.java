@@ -1,8 +1,8 @@
 package edu.kennesaw.matchmakerservice.to;
 
-import java.util.List;
+import java.util.Objects;
 
-public class PlayerInfo {
+public class Player {
     private String gamerId;
     private String firstName;
     private String lastName;
@@ -14,12 +14,13 @@ public class PlayerInfo {
     private int minimumWaitTime;
     private String game;
     private String gameMode;
-    private List<Player> friendsList;
-    private List<String> groupsList;
+    private String matchPercentage;
 
-    public PlayerInfo(){}
+    public Player(){}
 
-    public PlayerInfo(String gamerId, String firstName, String lastName, int age, String skillLevel, String region, String language, String personalityType, int minimumWaitTime, String game, String gameMode) {
+    public Player(String gamerId, String firstName, String lastName, int age, String skillLevel, String region,
+                  String language, String personalityType, int minimumWaitTime, String game, String gameMode,
+                  String matchPercentage) {
         this.gamerId = gamerId;
         this.firstName = firstName;
         this.lastName = lastName;
@@ -31,38 +32,7 @@ public class PlayerInfo {
         this.minimumWaitTime = minimumWaitTime;
         this.game = game;
         this.gameMode = gameMode;
-    }
-
-    public PlayerInfo(String gamerId, String firstName, String lastName, int age, String skillLevel, String region, String language, String personalityType, int minimumWaitTime, String game, String gameMode, List<Player> friendsList, List<String> groupsList) {
-        this.gamerId = gamerId;
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.age = age;
-        this.skillLevel = skillLevel;
-        this.region = region;
-        this.language = language;
-        this.personalityType = personalityType;
-        this.minimumWaitTime = minimumWaitTime;
-        this.game = game;
-        this.gameMode = gameMode;
-        this.friendsList = friendsList;
-        this.groupsList = groupsList;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    public void setMinimumWaitTime(int minimumWaitTime) {
-        this.minimumWaitTime = minimumWaitTime;
-    }
-
-    public int getMinimumWaitTime() {
-        return minimumWaitTime;
+        this.matchPercentage = matchPercentage;
     }
 
     public String getGamerId() {
@@ -87,6 +57,14 @@ public class PlayerInfo {
 
     public void setLastName(String lastName) {
         this.lastName = lastName;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
     }
 
     public String getSkillLevel() {
@@ -121,6 +99,14 @@ public class PlayerInfo {
         this.personalityType = personalityType;
     }
 
+    public int getMinimumWaitTime() {
+        return minimumWaitTime;
+    }
+
+    public void setMinimumWaitTime(int minimumWaitTime) {
+        this.minimumWaitTime = minimumWaitTime;
+    }
+
     public String getGame() {
         return game;
     }
@@ -137,38 +123,42 @@ public class PlayerInfo {
         this.gameMode = gameMode;
     }
 
-    public List<Player> getFriendsList() {
-        return friendsList;
+    public String getMatchPercentage() {
+        return matchPercentage;
     }
 
-    public void setFriendsList(List<Player> friendsList) {
-        this.friendsList = friendsList;
+    public void setMatchPercentage(String matchPercentage) {
+        this.matchPercentage = matchPercentage;
     }
 
-    public List<String> getGroupsList() {
-        return groupsList;
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Player player = (Player) o;
+        return age == player.age && minimumWaitTime == player.minimumWaitTime && Objects.equals(gamerId, player.gamerId) && Objects.equals(firstName, player.firstName) && Objects.equals(lastName, player.lastName) && Objects.equals(skillLevel, player.skillLevel) && Objects.equals(region, player.region) && Objects.equals(language, player.language) && Objects.equals(personalityType, player.personalityType) && Objects.equals(game, player.game) && Objects.equals(gameMode, player.gameMode) && Objects.equals(matchPercentage, player.matchPercentage);
     }
 
-    public void setGroupsList(List<String> groupsList) {
-        this.groupsList = groupsList;
+    @Override
+    public int hashCode() {
+        return Objects.hash(gamerId, firstName, lastName, age, skillLevel, region, language, personalityType, minimumWaitTime, game, gameMode, matchPercentage);
     }
 
     @Override
     public String toString() {
-        return "PlayerInfo{" +
+        return "Player{" +
                 "gamerId='" + gamerId + '\'' +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
-                ", age='" + age + '\'' +
+                ", age=" + age +
                 ", skillLevel='" + skillLevel + '\'' +
                 ", region='" + region + '\'' +
                 ", language='" + language + '\'' +
                 ", personalityType='" + personalityType + '\'' +
-                ", minimumWaitTime='" + minimumWaitTime + '\'' +
+                ", minimumWaitTime=" + minimumWaitTime +
                 ", game='" + game + '\'' +
                 ", gameMode='" + gameMode + '\'' +
-                ", friendsList=" + friendsList +
-                ", groupsList=" + groupsList +
+                ", matchPercentage='" + matchPercentage + '\'' +
                 '}';
     }
 }
