@@ -120,9 +120,7 @@ public class MatchMakerManager {
         friendsList.add(player4);
         friendsList.add(player5);
 
-        PlayerInfo playerInfo = request.getPlayerInfo();
-        playerInfo.setFriendsList(friendsList);
-        response.setPlayerInfo(playerInfo);
+        response.setFriendsList(friendsList);
         return response;
     }
 
