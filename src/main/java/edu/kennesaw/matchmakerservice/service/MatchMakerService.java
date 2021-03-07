@@ -17,6 +17,7 @@ import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
 
 import java.sql.SQLException;
+import java.util.List;
 
 @RestController
 @RequestMapping("/matchmaker")
@@ -62,8 +63,47 @@ public class MatchMakerService {
     @GetMapping("/getPlayer")
     public @ResponseBody
     ResponseEntity<MatchMakerResponse> getPlayerInformation(@RequestParam(name="gamerId", required=true) String gamerId) {
-        return new ResponseEntity<>(manager.getPlayer(gamerId), new HttpHeaders(), HttpStatus.OK);
+        if (gamerId != null) {
+            return new ResponseEntity<>(manager.getPlayer(gamerId), new HttpHeaders(), HttpStatus.OK);
+        }
+        return null;
     }
+
+    @ApiOperation(value = "putPlayer", notes = "putPlayer",
+            httpMethod = "PUT", consumes = "application/json", produces = "application/json")
+    @ApiResponses(value = {
+            @ApiResponse(code = 200, message = "Success", response = MatchMakerResponse.class),
+            @ApiResponse(code = 204, message = "Resource Unavailable"),
+            @ApiResponse(code = 400, message = "Bad Request"),
+            @ApiResponse(code = 401, message = "Unauthorized"),
+            @ApiResponse(code = 500, message = "Internal server error"),
+            @ApiResponse(code = 503, message = "Service Unavailable"),
+            @ApiResponse(code = 504, message = "Service Time Out")})
+    @CrossOrigin
+    @RequestMapping(method = RequestMethod.PUT, path = "/putPlayer")
+    public @ResponseBody
+    ResponseEntity<?> putPlayer(@RequestBody MatchMakerRequest request) {
+        boolean valid = isValidRequest(request);
+        if(valid){
+            List<String> newfriends = request.getPlayerInfo().getFriendsList();
+            if(newfriends != null) {
+                for (String friend : newfriends) {
+                    // insert into the join table
+                }
+            }
+            List<String> newGroups  = request.getPlayerInfo().getGroupsList();
+            if(newGroups != null){
+              // for(Group)
+            }
+        }
+        if(!valid){
+            MatchMakerResponse response = new MatchMakerResponse();
+            response.setErrorResponse(new ErrorResponse(Constants.CODE_BAD_REQUEST, Constants.MESSAGE_BAD_REQUEST));
+            return new ResponseEntity<>(response, new HttpHeaders(), HttpStatus.BAD_REQUEST);
+        }
+        return new ResponseEntity<>(manager.processPlayer(request), new HttpHeaders(), HttpStatus.OK);
+    }
+
 
     public boolean isValidRequest(MatchMakerRequest request){
 

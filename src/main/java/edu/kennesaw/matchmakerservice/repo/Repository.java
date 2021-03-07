@@ -1,9 +1,8 @@
 package edu.kennesaw.matchmakerservice.repo;
 
-import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.logging.Logger;
 
 import edu.kennesaw.matchmakerservice.config.DatabaseConfig;
@@ -21,8 +20,10 @@ public class Repository {
         PlayerInfo playerInfo = new PlayerInfo();
 
         Connection con = getDatabaseConnection();
-        Statement stmt = getStatement(con);
-        ResultSet rs = stmt.executeQuery(buildSelectSqlStatementForPlayerInfo(gamerId));
+        PreparedStatement stmt = getDatabaseConnection().prepareStatement("select * from gamers where gamer_id = ?");
+        stmt.setString(1,gamerId.toUpperCase());
+
+        ResultSet rs = stmt.executeQuery();
 
         if(rs.next()){
             playerInfo = new PlayerInfo(gamerId, rs.getString("first_name"), rs.getString("last_name"),
@@ -31,15 +32,51 @@ public class Repository {
                     rs.getString("region"), rs.getString("language"),
                     rs.getString("personality_type"), rs.getInt("minimum_wait_time"),
                     rs.getString("preferred_game"), rs.getString("preferred_game_mode"));
+
         }
+        rs.close();
+        // get  players friends  next
+        stmt = getDatabaseConnection().prepareStatement("SELECT * "+
+                        "FROM gamers fr "+
+                "inner join "+
+                        "(SELECT * FROM MatchMaker.gamers where gamer_id = ?) g "+
+        "on g.skill_level = fr.skill_level "+
+        "and g.region = fr.region "+
+        "and g.personality_type = fr.personality_type "+
+
+        "and g.preferred_game = fr.preferred_game "+
+        "WHERE fr.gamer_id != ? ");
+
+         stmt.setString(1,gamerId.toUpperCase());
+         stmt.setString(2,gamerId.toUpperCase());
+
+         rs = stmt.executeQuery();
+        playerInfo.setFriendsList(extractFriendList(rs));
+
         closeDatabaseConnection(con, stmt);
         return playerInfo;
     }
 
+  List extractFriendList(ResultSet rs) {
+        List<String> friends = new ArrayList<String>();
+
+           try{
+               while(rs.next()) {
+                   friends.add(rs.getString(1));
+               }
+            } catch (SQLException throwables) {
+              //  throwables.printStackTrace();
+
+
+        }
+        return friends;
+  }
     public String buildSelectSqlStatementForPlayerInfo(String gamerId){
-        String sql =  "select gamer_id, first_name, last_name, age, skill_level, region, language, personality_type, minimum_wait_time, preferred_game, preferred_game_mode from gamers where gamer_id in ( '" + gamerId.toUpperCase() + "' )";
-        LOGGER.info("buildSelectSqlStatementForPlayerInfo: " + sql);
-        return sql;
+       // String sql =  "select gamer_id, first_name, last_name, age, skill_level, region, language, personality_type, minimum_wait_time, preferred_game, preferred_game_mode from gamers where gamer_id in ( '" + gamerId.toUpperCase() + "' )";
+
+       // LOGGER.info("buildSelectSqlStatementForPlayerInfo: " + sql);
+       // return sql;
+        return null;
     }
 
     public String buildInsertSqlStatementForPlayerInfo(PlayerInfo player) {
