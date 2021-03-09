@@ -84,6 +84,23 @@ public class MatchMakerManager {
         }
         return response;
     }
+    // add friends
+    //@ params :person id and  comma delimted list of friend ID
+    public void addFriends(String player,String friends){
+
+        MatchMakerResponse response = new MatchMakerResponse();
+
+  try {
+      String [] friend_ids = friends.split(",");
+      repo.addFriends(player, friend_ids);
+     }
+  catch(SQLException e) {
+      LOGGER.info("SQLException occurred in addFriends: " + e.getMessage());
+
+        }
+
+
+    }
 
     public ErrorResponse getErrorResponse(int code, String message) {
         return new ErrorResponse(code, message);

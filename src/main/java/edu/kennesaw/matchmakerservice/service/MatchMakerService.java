@@ -105,6 +105,33 @@ public class MatchMakerService {
     }
 
 
+    @ApiOperation(value = "putPlayerAddFriends", notes = "putPlayerAddFriends",
+            httpMethod = "PUT", consumes = "application/json", produces = "application/json")
+    @ApiResponses(value = {
+            @ApiResponse(code = 200, message = "Success", response = MatchMakerResponse.class),
+            @ApiResponse(code = 204, message = "Resource Unavailable"),
+            @ApiResponse(code = 400, message = "Bad Request"),
+            @ApiResponse(code = 401, message = "Unauthorized"),
+            @ApiResponse(code = 500, message = "Internal server error"),
+            @ApiResponse(code = 503, message = "Service Unavailable"),
+            @ApiResponse(code = 504, message = "Service Time Out")})
+    @CrossOrigin
+    @RequestMapping(method = RequestMethod.PUT, path = "/addFriends")
+    public @ResponseBody
+    ResponseEntity<?> postPlayerAddFriends(@RequestParam String player_id,@RequestParam String friend_ids) {
+
+        if(player_id == null || player_id.isEmpty()  || friend_ids == null  ){
+            MatchMakerResponse response = new MatchMakerResponse();
+            response.setErrorResponse(new ErrorResponse(Constants.CODE_BAD_REQUEST, Constants.MESSAGE_BAD_REQUEST));
+
+            return new ResponseEntity<>(response, new HttpHeaders(), HttpStatus.BAD_REQUEST);
+        }
+        else {
+            manager.addFriends(player_id,friend_ids);
+        }
+        return new ResponseEntity<>(null, new HttpHeaders(), HttpStatus.OK);
+    }
+
     public boolean isValidRequest(MatchMakerRequest request){
 
         if(null != request && null != request.getPlayerInfo() &&

@@ -36,19 +36,9 @@ public class Repository {
         }
         rs.close();
         // get  players friends  next
-        stmt = getDatabaseConnection().prepareStatement("SELECT * "+
-                        "FROM gamers fr "+
-                "inner join "+
-                        "(SELECT * FROM MatchMaker.gamers where gamer_id = ?) g "+
-        "on g.skill_level = fr.skill_level "+
-        "and g.region = fr.region "+
-        "and g.personality_type = fr.personality_type "+
-
-        "and g.preferred_game = fr.preferred_game "+
-        "WHERE fr.gamer_id != ? ");
-
+        stmt = getDatabaseConnection().prepareStatement("SELECT * from gamer_friends where gamer_id=?");
          stmt.setString(1,gamerId.toUpperCase());
-         stmt.setString(2,gamerId.toUpperCase());
+
 
          rs = stmt.executeQuery();
         playerInfo.setFriendsList(extractFriendList(rs));
@@ -62,7 +52,7 @@ public class Repository {
 
            try{
                while(rs.next()) {
-                   friends.add(rs.getString(1));
+                   friends.add(rs.getString(2));
                }
             } catch (SQLException throwables) {
               //  throwables.printStackTrace();
@@ -70,6 +60,23 @@ public class Repository {
 
         }
         return friends;
+  }
+
+  public void addFriends(String player_id,String[] friend_ids) throws  SQLException{
+      String sql = " insert into gamer_friends (gamer_id,gamer_friend_id)  values ( ?, ? )";
+
+      PreparedStatement stmt = getDatabaseConnection().prepareStatement(sql);
+      Connection con = getDatabaseConnection();
+      con.setAutoCommit(true);
+      for( int i =0 ;i< friend_ids.length; i++){
+          stmt.setString(1,player_id);
+          stmt.setString(2,friend_ids[i]);
+         int x =  stmt.executeUpdate();
+         System.out.println(x);
+      }
+
+      closeDatabaseConnection(con, stmt);
+
   }
     public String buildSelectSqlStatementForPlayerInfo(String gamerId){
        // String sql =  "select gamer_id, first_name, last_name, age, skill_level, region, language, personality_type, minimum_wait_time, preferred_game, preferred_game_mode from gamers where gamer_id in ( '" + gamerId.toUpperCase() + "' )";
