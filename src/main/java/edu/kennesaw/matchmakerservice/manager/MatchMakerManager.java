@@ -11,6 +11,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 
 import java.sql.SQLException;
+import java.util.List;
 import java.util.logging.Logger;
 
 @Component
@@ -100,6 +101,19 @@ public class MatchMakerManager {
         }
 
 
+    }
+
+
+    public List<PlayerInfo> search(String skill_level, String personality_type, String preferred_game){
+        try{
+          List<PlayerInfo> players =  repo.search(skill_level,personality_type,preferred_game);
+          return players;
+        }
+        catch(SQLException e) {
+            LOGGER.info("SQLException occurred in addFriends: " + e.getMessage());
+
+        }
+        return null;
     }
 
     public ErrorResponse getErrorResponse(int code, String message) {

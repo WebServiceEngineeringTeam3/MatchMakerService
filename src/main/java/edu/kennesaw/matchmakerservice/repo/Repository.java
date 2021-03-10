@@ -78,12 +78,26 @@ public class Repository {
       closeDatabaseConnection(con, stmt);
 
   }
-    public String buildSelectSqlStatementForPlayerInfo(String gamerId){
-       // String sql =  "select gamer_id, first_name, last_name, age, skill_level, region, language, personality_type, minimum_wait_time, preferred_game, preferred_game_mode from gamers where gamer_id in ( '" + gamerId.toUpperCase() + "' )";
+    public List<PlayerInfo>search(String skill_level,String personality_type,String preferred_game)throws  SQLException{
+        List<PlayerInfo> players = new ArrayList();
+        String sql = "select * from gamers where skill_level=? AND personality_type=? and preferred_game=?";
+        PreparedStatement stmt = getDatabaseConnection().prepareStatement(sql);
+        Connection con = getDatabaseConnection();
+        stmt.setString(1,skill_level);
+        stmt.setString(2,personality_type);
+        stmt.setString(3,preferred_game);
+        ResultSet rs = stmt.executeQuery();
+        while(rs.next()){
+            PlayerInfo player  = new PlayerInfo( rs.getString("gamer_Id"), rs.getString("first_name"), rs.getString("last_name"),
+                    rs.getInt("age"),
+                    rs.getString("skill_level"),
+                    rs.getString("region"), rs.getString("language"),
+                    rs.getString("personality_type"), rs.getInt("minimum_wait_time"),
+                    rs.getString("preferred_game"), rs.getString("preferred_game_mode"));
+            players.add(player);
 
-       // LOGGER.info("buildSelectSqlStatementForPlayerInfo: " + sql);
-       // return sql;
-        return null;
+        }
+       return players;
     }
 
     public String buildInsertSqlStatementForPlayerInfo(PlayerInfo player) {
