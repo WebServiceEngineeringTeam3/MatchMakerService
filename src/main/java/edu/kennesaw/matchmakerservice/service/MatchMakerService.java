@@ -135,6 +135,7 @@ public class MatchMakerService {
 
     @ApiOperation(value = "search", notes = "search",
             httpMethod = "GET", consumes = "application/json", produces = "application/json")
+
     @ApiResponses(value = {
             @ApiResponse(code = 200, message = "Success", response = MatchMakerResponse.class),
             @ApiResponse(code = 204, message = "Resource Unavailable"),
@@ -144,6 +145,7 @@ public class MatchMakerService {
             @ApiResponse(code = 503, message = "Service Unavailable"),
             @ApiResponse(code = 504, message = "Service Time Out")})
     @CrossOrigin
+
     @RequestMapping(method = RequestMethod.GET, path = "/search")
 
     /*
@@ -162,6 +164,7 @@ public class MatchMakerService {
         players =  manager.search(skill_level,personality_type,preferred_game);
         }
         return new ResponseEntity<>(players, new HttpHeaders(), HttpStatus.OK);
+
     }
 
     public boolean isValidRequest(MatchMakerRequest request){

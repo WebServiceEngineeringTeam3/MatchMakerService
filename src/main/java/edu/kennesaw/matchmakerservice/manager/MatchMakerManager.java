@@ -1,16 +1,16 @@
 package edu.kennesaw.matchmakerservice.manager;
 
 import edu.kennesaw.matchmakerservice.repo.Repository;
-import edu.kennesaw.matchmakerservice.to.ErrorResponse;
-import edu.kennesaw.matchmakerservice.to.MatchMakerRequest;
-import edu.kennesaw.matchmakerservice.to.MatchMakerResponse;
-import edu.kennesaw.matchmakerservice.to.PlayerInfo;
+import edu.kennesaw.matchmakerservice.to.*;
 import edu.kennesaw.matchmakerservice.util.Constants;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 
 import java.sql.SQLException;
+
+import java.util.ArrayList;
+
 import java.util.List;
 import java.util.logging.Logger;
 
@@ -114,6 +114,44 @@ public class MatchMakerManager {
 
         }
         return null;
+
+    }
+
+    public MatchMakerResponse getMockedMatchMakerResponse(MatchMakerRequest request){
+        MatchMakerResponse response = new MatchMakerResponse();
+        response.setGamerId(request.getPlayerInfo().getGamerId());
+
+        List<Player> friendsList = new ArrayList<>();
+
+        Player player1 = new Player("aguillermanp4", "Carlie", "MacGibbon", 54, "casual", "Northwest US",
+                "Hindi", "achiever", 15, "Overwatch", "DeathMatch",
+                "54%");
+
+        Player player2 = new Player("cisco94", "Francisco", "Sayago", 26, "hardcore", "Southeast US",
+                "Spanish", "socializer", 5, "Overwatch", "Competitive",
+                "98%");
+
+        Player player3 = new Player("liss79", "Vilma", "Guerra", 40, "basic", "Northeast US",
+                "English", "explorer", 10, "Overwatch", "Quick Play",
+                "90%");
+
+        Player player4 = new Player("carlos77", "Carlos", "Guerra", 42, "mid-core", "Latin America",
+                "Spanish", "thinker", 2, "Overwatch", "Hybrid",
+                "80%");
+
+        Player player5 = new Player("mejia61", "Ruth", "Acevedo", 60, "casual", "Europe",
+                "German", "achiever", 5, "Overwatch", "Capture the Flag",
+                "86%");
+
+        friendsList.add(player1);
+        friendsList.add(player2);
+        friendsList.add(player3);
+        friendsList.add(player4);
+        friendsList.add(player5);
+
+        response.setFriendsList(friendsList);
+        return response;
+ 
     }
 
     public ErrorResponse getErrorResponse(int code, String message) {
