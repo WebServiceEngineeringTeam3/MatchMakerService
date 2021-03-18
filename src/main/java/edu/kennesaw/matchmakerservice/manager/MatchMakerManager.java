@@ -116,6 +116,27 @@ public class MatchMakerManager {
         return null;
 
     }
+    public List<GroupInfo> findGroups(String gamerID){
+        try{
+            List<GroupInfo> groups =  repo.findGroups(gamerID);
+            return groups;
+        }
+        catch(SQLException e) {
+            LOGGER.info("SQLException occurred in addFriends: " + e.getMessage());
+
+        }
+        return null;
+    }
+    public boolean createGroup(String gamer_id,String gamer_friend_id,String gamer_group_id) {
+        try {
+            return repo.createGroup(gamer_id, gamer_friend_id, gamer_group_id);
+        } catch (SQLException e) {
+            LOGGER.info("SQLException occurred in addFriends: " + e.getMessage());
+
+        }
+        return  false;
+    }
+
 
     public MatchMakerResponse getMockedMatchMakerResponse(MatchMakerRequest request){
         MatchMakerResponse response = new MatchMakerResponse();

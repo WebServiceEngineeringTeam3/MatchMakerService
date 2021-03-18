@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.logging.Logger;
 
 import edu.kennesaw.matchmakerservice.config.DatabaseConfig;
+import edu.kennesaw.matchmakerservice.to.GroupInfo;
 import edu.kennesaw.matchmakerservice.to.PlayerInfo;
 import org.springframework.stereotype.Component;
 
@@ -98,6 +99,40 @@ public class Repository {
 
         }
        return players;
+    }
+
+    public List<GroupInfo> findGroups(String gamerID) throws  SQLException{
+        List<GroupInfo> groups = new ArrayList();
+        String sql = "select * from gamer_groups where gamer_id=?";
+        PreparedStatement stmt = getDatabaseConnection().prepareStatement(sql);
+        Connection con = getDatabaseConnection();
+        stmt.setString(1,gamerID);
+
+        ResultSet rs = stmt.executeQuery();
+        while(rs.next()){
+            GroupInfo group  = new GroupInfo( rs.getString("gamer_Id"), rs.getString("gamer_group_id"), rs.getString("gamer_friend_id"));
+            groups.add(group);
+
+        }
+        return groups;
+    }
+
+    public boolean createGroup(String gamer_id,String gamer_friend_id,String gamer_group_id) throws SQLException{
+        String sql = "insert into gamer_groups (gamer_id,gamer_friend_id,gamer_group_id) values (?,?,?)";
+        PreparedStatement stmt = getDatabaseConnection().prepareStatement(sql);
+        Connection con = getDatabaseConnection();
+        stmt.setString(1,gamer_id);
+        stmt.setString(2,gamer_friend_id);
+        stmt.setString(3,gamer_group_id);
+
+        int x =  stmt.executeUpdate();
+        if(x > 0){
+            return true;
+        }
+        else
+            return false;
+
+
     }
 
     public String buildInsertSqlStatementForPlayerInfo(PlayerInfo player) {

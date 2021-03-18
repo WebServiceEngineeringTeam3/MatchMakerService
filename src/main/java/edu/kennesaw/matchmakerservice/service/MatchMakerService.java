@@ -1,10 +1,7 @@
 package edu.kennesaw.matchmakerservice.service;
 
 import edu.kennesaw.matchmakerservice.manager.MatchMakerManager;
-import edu.kennesaw.matchmakerservice.to.ErrorResponse;
-import edu.kennesaw.matchmakerservice.to.MatchMakerRequest;
-import edu.kennesaw.matchmakerservice.to.MatchMakerResponse;
-import edu.kennesaw.matchmakerservice.to.PlayerInfo;
+import edu.kennesaw.matchmakerservice.to.*;
 import edu.kennesaw.matchmakerservice.util.Constants;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;
@@ -166,6 +163,77 @@ public class MatchMakerService {
         return new ResponseEntity<>(players, new HttpHeaders(), HttpStatus.OK);
 
     }
+
+    @ApiResponses(value = {
+            @ApiResponse(code = 200, message = "Success", response = MatchMakerResponse.class),
+            @ApiResponse(code = 204, message = "Resource Unavailable"),
+            @ApiResponse(code = 400, message = "Bad Request"),
+            @ApiResponse(code = 401, message = "Unauthorized"),
+            @ApiResponse(code = 500, message = "Internal server error"),
+            @ApiResponse(code = 503, message = "Service Unavailable"),
+            @ApiResponse(code = 504, message = "Service Time Out")})
+    @CrossOrigin
+
+    @RequestMapping(method = RequestMethod.GET, path = "/groups")
+
+    /*
+    example query  localhost:8080/matchmaker/groups?gamerid="sdfsdf"
+     */
+    public @ResponseBody
+    ResponseEntity<?> getGroups(@RequestParam String gamer_id) {
+        List<GroupInfo> groups = null;
+        groups =  manager.findGroups(gamer_id);
+
+        if( groups == null){
+            MatchMakerResponse response = new MatchMakerResponse();
+            response.setErrorResponse(new ErrorResponse(Constants.CODE_BAD_REQUEST, Constants.MESSAGE_BAD_REQUEST));
+
+            return new ResponseEntity<>(response, new HttpHeaders(), HttpStatus.BAD_REQUEST);
+        }
+
+
+
+        return new ResponseEntity<>(groups, new HttpHeaders(), HttpStatus.OK);
+
+    }
+
+    @ApiResponses(value = {
+            @ApiResponse(code = 200, message = "Success", response = MatchMakerResponse.class),
+            @ApiResponse(code = 204, message = "Resource Unavailable"),
+            @ApiResponse(code = 400, message = "Bad Request"),
+            @ApiResponse(code = 401, message = "Unauthorized"),
+            @ApiResponse(code = 500, message = "Internal server error"),
+            @ApiResponse(code = 503, message = "Service Unavailable"),
+            @ApiResponse(code = 504, message = "Service Time Out")})
+    @CrossOrigin
+
+    @RequestMapping(method = RequestMethod.POST, path = "/groups")
+
+    /*
+    example query  localhost:8080/matchmaker/groups?gamerid="sdfsdf"&gamer_group_id='casual'&gamer_friend_id='gfgd'
+     */
+    public @ResponseBody
+    ResponseEntity<?> getGroups(@RequestParam String gamer_id,@RequestParam String gamer_group_id, @RequestParam String gamer_friend_id) {
+      boolean  inserted = false;
+        inserted =  manager.createGroup(gamer_id,gamer_friend_id,gamer_group_id);
+
+        if( !inserted){
+            MatchMakerResponse response = new MatchMakerResponse();
+            response.setErrorResponse(new ErrorResponse(Constants.CODE_BAD_REQUEST, Constants.MESSAGE_BAD_REQUEST));
+
+            return new ResponseEntity<>(response, new HttpHeaders(), HttpStatus.BAD_REQUEST);
+        }
+
+
+    else {
+            return new ResponseEntity<>(null, new HttpHeaders(), HttpStatus.OK);
+        }
+
+    }
+
+
+
+
 
     public boolean isValidRequest(MatchMakerRequest request){
 
