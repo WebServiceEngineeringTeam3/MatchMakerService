@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.logging.Logger;
 
 import edu.kennesaw.matchmakerservice.config.DatabaseConfig;
+import edu.kennesaw.matchmakerservice.to.GamerGroup;
 import edu.kennesaw.matchmakerservice.to.GroupInfo;
 import edu.kennesaw.matchmakerservice.to.PlayerInfo;
 import org.springframework.stereotype.Component;
@@ -212,4 +213,43 @@ public class Repository {
         }
     }
 
+    public List<GamerGroup> getGamerGroups(String playerId) throws SQLException{
+        String sql =
+                "SELECT distinct gg.gamer_id, gg.gamer_group_id ,gg.gamer_friend_id, g.skill_level, g.region, g.language, g.personality_type,"+
+               " g.minimum_wait_time, g.preferred_game, g.preferred_game_mode, g.first_name, g.last_name, g.age "+
+        " FROM MatchMaker.gamer_groups gg "+
+        " INNER JOIN MatchMaker.gamer_friends gf " +
+        " ON gg.gamer_friend_id = gf.gamer_friend_id " +
+        " INNER JOIN MatchMaker.gamers g " +
+        " ON g.gamer_id = gf.gamer_friend_id" +
+        " WHERE gg.gamer_id = ?  ORDER BY gg.gamer_group_id;" ;
+        PreparedStatement stmt = getDatabaseConnection().prepareStatement(sql);
+        Connection con = getDatabaseConnection();
+        stmt.setString(1,playerId);
+        ResultSet rs = stmt.executeQuery();
+        List<GamerGroup> groups = new ArrayList<GamerGroup>();
+        while(rs.next()){
+            GamerGroup group  = new GamerGroup( );
+            group.setGamer_id(rs.getString("gamer_Id"));
+            group.setGamer_group_id(rs.getString("gamer_group_id"));
+            group.setGamer_friend_id(rs.getString("gamer_friend_id"));
+
+            group.setSkill_level(rs.getString("skill_level"));
+            group.setRegion(rs.getString("region"));
+            group.setLanguage(rs.getString("language"));
+            group.setPersonality_type(rs.getString("personality_type"));
+
+            group.setMinimum_wait_time(rs.getString("minimum_wait_time"));
+            group.setPreferred_game(rs.getString("preferred_game"));
+            group.setPreferred_game_mode(rs.getString("preferred_game_mode"));
+            group.setFirst_name( rs.getString("first_name"));
+            group.setLast_name(rs.getString("last_name"));
+            group.setAge(rs.getString("age"));
+
+            groups.add(group);
+        }
+ return groups;
+
+
+    }
 }

@@ -231,6 +231,39 @@ public class MatchMakerService {
 
     }
 
+    @ApiResponses(value = {
+            @ApiResponse(code = 200, message = "Success", response = MatchMakerResponse.class),
+            @ApiResponse(code = 204, message = "Resource Unavailable"),
+            @ApiResponse(code = 400, message = "Bad Request"),
+            @ApiResponse(code = 401, message = "Unauthorized"),
+            @ApiResponse(code = 500, message = "Internal server error"),
+            @ApiResponse(code = 503, message = "Service Unavailable"),
+            @ApiResponse(code = 504, message = "Service Time Out")})
+    @CrossOrigin
+
+    @RequestMapping(method = RequestMethod.GET, path = "/gamer_groups")
+
+    /*
+    example   GET  localhost:8080/matchmaker/group_groups?gamerid="sdfsdf"
+     */
+    public @ResponseBody
+    ResponseEntity<?> getGamerGroups(@RequestParam String gamer_id) {
+
+        List<GamerGroup> groups =  manager.getGamerGroups(gamer_id);
+
+        if(groups == null){
+            MatchMakerResponse response = new MatchMakerResponse();
+            response.setErrorResponse(new ErrorResponse(Constants.CODE_BAD_REQUEST, Constants.MESSAGE_BAD_REQUEST));
+
+            return new ResponseEntity<>(response, new HttpHeaders(), HttpStatus.BAD_REQUEST);
+        }
+
+
+        else {
+            return new ResponseEntity<>(groups, new HttpHeaders(), HttpStatus.OK);
+        }
+
+    }
 
 
 

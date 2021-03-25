@@ -136,7 +136,18 @@ public class MatchMakerManager {
         }
         return  false;
     }
+public List<GamerGroup>getGamerGroups(String player_id){
+    try{
+        List<GamerGroup> groups =  repo.getGamerGroups(player_id);
+        return groups;
+    }
+    catch(SQLException e) {
+        LOGGER.info("SQLException occurred in getGamerGroups: " + e.getMessage());
 
+    }
+    return null;
+
+}
 
     public MatchMakerResponse getMockedMatchMakerResponse(MatchMakerRequest request){
         MatchMakerResponse response = new MatchMakerResponse();
