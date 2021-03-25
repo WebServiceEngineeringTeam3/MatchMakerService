@@ -68,9 +68,13 @@ public class MatchMakerManager {
         response.setGamerId(gamerId);
         LOGGER.info("Begin to get player with gamerId: " + gamerId);
         PlayerInfo player = new PlayerInfo();
+        List<GroupInfo> groups = new ArrayList<>();
 
         try {
             player = repo.getPlayerInformation(gamerId);
+            //Find groups and populate groupsList attribute for PlayerInfo
+            groups = repo.findGroups(gamerId);
+            player.setGroupsList(groups);
         }
         catch(SQLException e) {
             LOGGER.info("Exception occurred in getPlayer method during read: " + e.getMessage());

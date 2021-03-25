@@ -89,7 +89,7 @@ public class MatchMakerService {
                     // insert into the join table
                 }
             }
-            List<String> newGroups  = request.getPlayerInfo().getGroupsList();
+            List<GroupInfo> newGroups  = request.getPlayerInfo().getGroupsList();
             if(newGroups != null){
               // for(Group)
             }

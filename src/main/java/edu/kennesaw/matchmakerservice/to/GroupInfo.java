@@ -3,9 +3,10 @@ package edu.kennesaw.matchmakerservice.to;
 public class GroupInfo {
 
     private String gamer_id;
-
     private String gamer_group_id;
     private String  gamer_friend_id;
+
+    public GroupInfo(){}
 
 
     public GroupInfo (String gamer_id,String  gamer_group_id, String gamer_friend_id){
@@ -37,4 +38,12 @@ public class GroupInfo {
         this.gamer_friend_id = gamer_friend_id;
     }
 
+    @Override
+    public String toString() {
+        return "GroupInfo{" +
+                "gamer_id='" + gamer_id + '\'' +
+                ", gamer_group_id='" + gamer_group_id + '\'' +
+                ", gamer_friend_id='" + gamer_friend_id + '\'' +
+                '}';
+    }
 }
