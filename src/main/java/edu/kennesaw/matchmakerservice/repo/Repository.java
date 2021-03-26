@@ -18,6 +18,43 @@ public class Repository {
 
     DatabaseConfig dbConfig = new DatabaseConfig();
 
+    public List<PlayerInfo> getCompleteInfoForFriendsList(List<String> gamerIds) throws SQLException {
+        List<PlayerInfo> completeFriendInfoList = new ArrayList<>();
+        PlayerInfo playerInfo = new PlayerInfo();
+        String friendIds = getArrayString(gamerIds);
+
+        Connection con = getDatabaseConnection();
+        PreparedStatement stmt = getDatabaseConnection().prepareStatement("select * from gamers where gamer_id in ("+friendIds+")");
+        ResultSet rs = stmt.executeQuery();
+
+        while(rs.next()){
+            playerInfo = new PlayerInfo(rs.getString("gamer_id"), rs.getString("first_name"), rs.getString("last_name"),
+                    rs.getInt("age"),
+                    rs.getString("skill_level"),
+                    rs.getString("region"), rs.getString("language"),
+                    rs.getString("personality_type"), rs.getInt("minimum_wait_time"),
+                    rs.getString("preferred_game"), rs.getString("preferred_game_mode"));
+
+            completeFriendInfoList.add(playerInfo);
+
+        }
+        rs.close();
+        closeDatabaseConnection(con, stmt);
+        return completeFriendInfoList;
+
+    }
+
+    public String getArrayString(List<String> gamerIds){
+        StringBuilder stringBuilder = new StringBuilder();
+        for(String gamerId : gamerIds){
+            stringBuilder.append("'").append(gamerId).append("'").append(",");
+        }
+        //remove last comma from string
+        String finalString = stringBuilder.substring(0, stringBuilder.length() - 1);
+        LOGGER.info("getArrayString: " + finalString);
+        return finalString;
+    }
+
     public PlayerInfo getPlayerInformation(String gamerId) throws SQLException {
         PlayerInfo playerInfo = new PlayerInfo();
 
