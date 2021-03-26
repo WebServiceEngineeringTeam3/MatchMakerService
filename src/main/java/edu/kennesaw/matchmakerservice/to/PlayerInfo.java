@@ -15,7 +15,7 @@ public class PlayerInfo {
     private String game;
     private String gameMode;
     private List<String> friendsList;
-    private List<String> groupsList;
+    private List<GroupInfo> groupsList;
 
     public PlayerInfo(){}
 
@@ -33,7 +33,7 @@ public class PlayerInfo {
         this.gameMode = gameMode;
     }
 
-    public PlayerInfo(String gamerId, String firstName, String lastName, int age, String skillLevel, String region, String language, String personalityType, int minimumWaitTime, String game, String gameMode, List<String> friendsList, List<String> groupsList) {
+    public PlayerInfo(String gamerId, String firstName, String lastName, int age, String skillLevel, String region, String language, String personalityType, int minimumWaitTime, String game, String gameMode, List<String> friendsList, List<GroupInfo> groupsList) {
         this.gamerId = gamerId;
         this.firstName = firstName;
         this.lastName = lastName;
@@ -145,11 +145,11 @@ public class PlayerInfo {
         this.friendsList = friendsList;
     }
 
-    public List<String> getGroupsList() {
+    public List<GroupInfo> getGroupsList() {
         return groupsList;
     }
 
-    public void setGroupsList(List<String> groupsList) {
+    public void setGroupsList(List<GroupInfo> groupsList) {
         this.groupsList = groupsList;
     }
 

@@ -68,9 +68,13 @@ public class MatchMakerManager {
         response.setGamerId(gamerId);
         LOGGER.info("Begin to get player with gamerId: " + gamerId);
         PlayerInfo player = new PlayerInfo();
+        List<GroupInfo> groups = new ArrayList<>();
 
         try {
             player = repo.getPlayerInformation(gamerId);
+            //Find groups and populate groupsList attribute for PlayerInfo
+            groups = repo.findGroups(gamerId);
+            player.setGroupsList(groups);
         }
         catch(SQLException e) {
             LOGGER.info("Exception occurred in getPlayer method during read: " + e.getMessage());
@@ -127,9 +131,9 @@ public class MatchMakerManager {
         }
         return null;
     }
-    public boolean createGroup(String gamer_id,String gamer_friend_id,String gamer_group_id) {
+    public boolean createGroup(String gamer_id,List<String> gamer_friend_ids,String gamer_group_id) {
         try {
-            return repo.createGroup(gamer_id, gamer_friend_id, gamer_group_id);
+            return repo.createGroup(gamer_id, gamer_friend_ids, gamer_group_id);
         } catch (SQLException e) {
             LOGGER.info("SQLException occurred in addFriends: " + e.getMessage());
 
@@ -149,41 +153,17 @@ public List<GamerGroup>getGamerGroups(String player_id){
 
 }
 
-    public MatchMakerResponse getMockedMatchMakerResponse(MatchMakerRequest request){
+    public MatchMakerResponse getCompleteInfoForFriendsList(List<String> gamerIds){
         MatchMakerResponse response = new MatchMakerResponse();
-        response.setGamerId(request.getPlayerInfo().getGamerId());
-
-        List<Player> friendsList = new ArrayList<>();
-
-        Player player1 = new Player("aguillermanp4", "Carlie", "MacGibbon", 54, "casual", "Northwest US",
-                "Hindi", "achiever", 15, "Overwatch", "DeathMatch",
-                "54%");
-
-        Player player2 = new Player("cisco94", "Francisco", "Sayago", 26, "hardcore", "Southeast US",
-                "Spanish", "socializer", 5, "Overwatch", "Competitive",
-                "98%");
-
-        Player player3 = new Player("liss79", "Vilma", "Guerra", 40, "basic", "Northeast US",
-                "English", "explorer", 10, "Overwatch", "Quick Play",
-                "90%");
-
-        Player player4 = new Player("carlos77", "Carlos", "Guerra", 42, "mid-core", "Latin America",
-                "Spanish", "thinker", 2, "Overwatch", "Hybrid",
-                "80%");
-
-        Player player5 = new Player("mejia61", "Ruth", "Acevedo", 60, "casual", "Europe",
-                "German", "achiever", 5, "Overwatch", "Capture the Flag",
-                "86%");
-
-        friendsList.add(player1);
-        friendsList.add(player2);
-        friendsList.add(player3);
-        friendsList.add(player4);
-        friendsList.add(player5);
-
-        response.setFriendsList(friendsList);
+        try{
+            List<PlayerInfo> friendsInfo = repo.getCompleteInfoForFriendsList(gamerIds);
+            response.setCompleteInfoFriendsList(friendsInfo);
+        }
+        catch(SQLException e){
+            LOGGER.info("SQLException occurred in getCompleteInfoForFriendsList: " + e.getMessage());
+            response.setErrorResponse(getErrorResponse(Constants.CODE_SERVICE_ERROR, Constants.MESSAGE_SERVICE_ERROR));
+        }
         return response;
- 
     }
 
     public ErrorResponse getErrorResponse(int code, String message) {
