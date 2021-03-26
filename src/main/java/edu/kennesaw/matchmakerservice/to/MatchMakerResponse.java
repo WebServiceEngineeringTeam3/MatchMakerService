@@ -7,6 +7,7 @@ public class MatchMakerResponse {
 	private String gamerId;
 	private PlayerInfo playerInfo;
 	private List<Player> friendsList;
+	private List<PlayerInfo> completeInfoFriendsList;
 	private ErrorResponse errorResponse;
 
 	public MatchMakerResponse() {}
@@ -49,12 +50,21 @@ public class MatchMakerResponse {
 		this.friendsList = friendsList;
 	}
 
+	public List<PlayerInfo> getCompleteInfoFriendsList() {
+		return completeInfoFriendsList;
+	}
+
+	public void setCompleteInfoFriendsList(List<PlayerInfo> completeInfoFriendsList) {
+		this.completeInfoFriendsList = completeInfoFriendsList;
+	}
+
 	@Override
 	public String toString() {
 		return "MatchMakerResponse{" +
 				"gamerId='" + gamerId + '\'' +
 				", playerInfo=" + playerInfo +
 				", friendsList=" + friendsList +
+				", completeInfoFriendsList=" + completeInfoFriendsList +
 				", errorResponse=" + errorResponse +
 				'}';
 	}

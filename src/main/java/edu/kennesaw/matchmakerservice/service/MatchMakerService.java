@@ -265,6 +265,25 @@ public class MatchMakerService {
 
     }
 
+    @ApiResponses(value = {
+            @ApiResponse(code = 200, message = "Success", response = MatchMakerResponse.class),
+            @ApiResponse(code = 204, message = "Resource Unavailable"),
+            @ApiResponse(code = 400, message = "Bad Request"),
+            @ApiResponse(code = 401, message = "Unauthorized"),
+            @ApiResponse(code = 500, message = "Internal server error"),
+            @ApiResponse(code = 503, message = "Service Unavailable"),
+            @ApiResponse(code = 504, message = "Service Time Out")})
+    @CrossOrigin
+    @RequestMapping(method = RequestMethod.GET, path = "/gamer_friends")
+    /*
+    example   GET  http://localhost:8080/matchmaker/gamer_friends?gamerIds=cisco94,ungo1985,ungo3000,ababbidge5x,noconcannon5b
+     */
+    public @ResponseBody
+    ResponseEntity<?> getGamerFriends(@RequestParam List<String> gamerIds) {
+        MatchMakerResponse response =  manager.getCompleteInfoForFriendsList(gamerIds);
+        return new ResponseEntity<>(response, new HttpHeaders(), HttpStatus.OK);
+    }
+
 
 
 
