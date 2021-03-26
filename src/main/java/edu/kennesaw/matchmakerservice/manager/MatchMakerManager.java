@@ -131,9 +131,9 @@ public class MatchMakerManager {
         }
         return null;
     }
-    public boolean createGroup(String gamer_id,String gamer_friend_id,String gamer_group_id) {
+    public boolean createGroup(String gamer_id,List<String> gamer_friend_ids,String gamer_group_id) {
         try {
-            return repo.createGroup(gamer_id, gamer_friend_id, gamer_group_id);
+            return repo.createGroup(gamer_id, gamer_friend_ids, gamer_group_id);
         } catch (SQLException e) {
             LOGGER.info("SQLException occurred in addFriends: " + e.getMessage());
 

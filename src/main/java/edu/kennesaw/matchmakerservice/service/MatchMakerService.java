@@ -207,15 +207,15 @@ public class MatchMakerService {
             @ApiResponse(code = 504, message = "Service Time Out")})
     @CrossOrigin
 
-    @RequestMapping(method = RequestMethod.POST, path = "/groups")
+    @RequestMapping(method = RequestMethod.POST, path = "/group")
 
     /*
-    example query  localhost:8080/matchmaker/groups?gamerid="sdfsdf"&gamer_group_id='casual'&gamer_friend_id='gfgd'
+    example query  http://localhost:8080/matchmaker/group?gamer_id=ungo1985&gamer_group_id=Overwatch&gamer_friend_ids=noconcannon5b,abohlin6d,akingsc9
      */
     public @ResponseBody
-    ResponseEntity<?> getGroups(@RequestParam String gamer_id,@RequestParam String gamer_group_id, @RequestParam String gamer_friend_id) {
+    ResponseEntity<?> postGroup(@RequestParam String gamer_id,@RequestParam String gamer_group_id, @RequestParam List<String> gamer_friend_ids) {
       boolean  inserted = false;
-        inserted =  manager.createGroup(gamer_id,gamer_friend_id,gamer_group_id);
+        inserted =  manager.createGroup(gamer_id,gamer_friend_ids,gamer_group_id);
 
         if( !inserted){
             MatchMakerResponse response = new MatchMakerResponse();
@@ -226,7 +226,7 @@ public class MatchMakerService {
 
 
     else {
-            return new ResponseEntity<>(null, new HttpHeaders(), HttpStatus.OK);
+            return new ResponseEntity<>("SUCCESS", new HttpHeaders(), HttpStatus.OK);
         }
 
     }

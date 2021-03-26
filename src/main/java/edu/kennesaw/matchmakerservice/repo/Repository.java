@@ -155,22 +155,27 @@ public class Repository {
         return groups;
     }
 
-    public boolean createGroup(String gamer_id,String gamer_friend_id,String gamer_group_id) throws SQLException{
-        String sql = "insert into gamer_groups (gamer_id,gamer_friend_id,gamer_group_id) values (?,?,?)";
-        PreparedStatement stmt = getDatabaseConnection().prepareStatement(sql);
-        Connection con = getDatabaseConnection();
-        stmt.setString(1,gamer_id);
-        stmt.setString(2,gamer_friend_id);
-        stmt.setString(3,gamer_group_id);
+    public boolean createGroup(String gamer_id,List<String> gamer_friend_ids,String gamer_group_id) throws SQLException{
+        boolean result = false;
+        for(String gamer_friend_id : gamer_friend_ids){
+            String sql = "insert into gamer_groups (gamer_id,gamer_friend_id,gamer_group_id) values (?,?,?)";
+            PreparedStatement stmt = getDatabaseConnection().prepareStatement(sql);
+            Connection con = getDatabaseConnection();
+            stmt.setString(1,gamer_id);
+            stmt.setString(2,gamer_friend_id);
+            stmt.setString(3,gamer_group_id);
 
-        int x =  stmt.executeUpdate();
-        if(x > 0){
-            return true;
+            int x =  stmt.executeUpdate();
+            if(x > 0){
+                result = true;
+            }
+            else{
+                LOGGER.info("createGroup method failed to insert record for gamer_id " + gamer_id
+                + " gamer_friend_id " + gamer_friend_id + " gamer_group_id " + gamer_group_id);
+                result = false;
+            }
         }
-        else
-            return false;
-
-
+        return result;
     }
 
     public String buildInsertSqlStatementForPlayerInfo(PlayerInfo player) {
